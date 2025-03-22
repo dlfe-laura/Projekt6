@@ -71,4 +71,38 @@
     white-space: nowrap;
   }
   
+  .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 168px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-space-200);
+    padding: var(--size-space-300);
+    position: relative;
+    background-color: var(--color-background-brand-default);
+    border-radius: var(--size-radius-200);
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--color-border-brand-default);
+  }
+  
+  .button .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: var(--single-line-body-base-font-family);
+    font-weight: var(--single-line-body-base-font-weight);
+    color: var(--color-text-brand-on-brand);
+    font-size: var(--single-line-body-base-font-size);
+    text-align: center;
+    letter-spacing: var(--single-line-body-base-letter-spacing);
+    line-height: var(--single-line-body-base-line-height);
+    white-space: nowrap;
+    font-style: var(--single-line-body-base-font-style);
+  }
+  
   

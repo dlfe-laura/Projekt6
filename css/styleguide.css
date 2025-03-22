@@ -5,6 +5,26 @@
     --body-text-letter-spacing: 0px;
     --body-text-line-height: 150%;
     --body-text-font-style: normal;
+    --size-space-200: 8px;
+    --size-space-300: 12px;
+    --size-radius-200: 8px;
+    --color-background-brand-default: var(--color-primitives-brand-800);
+    --color-border-brand-default: var(--color-primitives-brand-800);
+    --color-text-brand-on-brand: var(--color-primitives-brand-100);
+    --color-primitives-brand-800: rgba(44,44,44,1);
+    --color-primitives-brand-100: rgba(245,245,245,1);
     --variable-collection-spacing-m: 48px;
   }
+
+  /* To enable a theme in the HTML file, simply add one of the 
+  following data attributes to an HTML element: */ 
   
+  [data-color-mode="SDS-light"] {
+    --color-background-brand-default: var(--color-primitives-brand-800);
+    --color-border-brand-default: var(--color-primitives-brand-800);
+  }
+
+  [data-color-mode="SDS-dark"] {
+    --color-background-brand-default: var(--color-primitives-brand-100);
+    --color-border-brand-default: var(--color-primitives-brand-100);
+  }
