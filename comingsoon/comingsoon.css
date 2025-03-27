@@ -10,13 +10,14 @@ body {
   }
   .container {
     position: relative;
-    transform: scale(0.25); /* Scales the container to 25% of its original size */
-    transform-origin: center; /* Ensures the scaling happens from the center */
-  }
-  .image {
-    max-width: 100%;
+    width: 25%; /* Set the container to 25% of the viewport width */
+    max-width: 400px; /* Optional: Limit the maximum size */
+    margin: 0 auto; /* Center the container horizontally */
+}
+.image {
+    width: 100%; /* Ensure the image fits within the container */
     height: auto;
-  }
+}
   .text-overlay {
     position: absolute;
     top: 50%;
