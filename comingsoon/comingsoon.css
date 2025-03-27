@@ -36,10 +36,14 @@ body {
 }
 
 .links a {
-  color: #007bff;
-  text-decoration: none;
+  color: #007bff; /* Set the default color */
+  text-decoration: none; /* Remove underline */
 }
 
-.links a:hover {
-  text-decoration: underline;
+.links a:hover,
+.links a:focus,
+.links a:active,
+.links a:visited {
+  color: #007bff; /* Keep the same color for all states */
+  text-decoration: none; /* Ensure no underline appears */
 }
