@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  position: relative;
+  position: relative; /* Ensures .text-overlay is positioned relative to this container */
   width: 15%; /* Set the container to 15% of the viewport width */
   max-width: 200px; /* Optional: Limit the maximum size */
   margin-bottom: 20px; /* Add spacing below the container */
@@ -23,14 +23,14 @@ body {
 }
 
 .text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute; /* Position the text on top of the image */
+  top: 50%; /* Center vertically within the container */
+  left: 50%; /* Center horizontally within the container */
+  transform: translate(-50%, -50%); /* Adjust for perfect centering */
   font-size: 3rem;
   font-weight: bold;
   color: black;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Add a subtle shadow for better visibility */
 }
 
 .contact {
