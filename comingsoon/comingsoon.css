@@ -26,7 +26,7 @@ body {
   font-weight: bold;
   color: black;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Add a subtle shadow for better visibility */
-  margin-bottom: 10px; /* Add spacing between the text and the image */
+  margin-bottom: 20px; /* Add spacing between the text and the image */
 }
 
 .links {
