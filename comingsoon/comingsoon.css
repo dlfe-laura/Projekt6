@@ -3,8 +3,9 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
   height: 100vh; /* Full viewport height */
   text-align: center;
 }
@@ -13,7 +14,9 @@ body {
   position: relative;
   width: 15%; /* Set the container to 15% of the viewport width */
   max-width: 200px; /* Optional: Limit the maximum size */
+  margin-bottom: 20px; /* Add spacing below the container */
 }
+
 .image {
   width: 100%; /* Ensure the image fits within the container */
   height: auto;
@@ -31,7 +34,6 @@ body {
 }
 
 .contact {
-  margin-top: 20px;
   font-size: 1.2rem;
   color: #333;
 }
