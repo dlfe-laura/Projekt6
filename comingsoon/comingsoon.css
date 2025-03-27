@@ -33,19 +33,17 @@ body {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Add a subtle shadow for better visibility */
 }
 
-.contact {
-  font-size: 1.2rem;
-  color: #333;
-  display: flex; /* Use flexbox to align items horizontally */
-  justify-content: center; /* Center the links horizontally */
+.links {
+  display: flex; /* Align the links horizontally */
+  justify-content: center; /* Center the links */
   gap: 20px; /* Add spacing between the links */
 }
 
-.contact a {
+.links a {
   color: #007bff;
   text-decoration: none;
 }
 
-.contact a:hover {
+.links a:hover {
   text-decoration: underline;
 }
