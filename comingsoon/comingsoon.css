@@ -10,6 +10,8 @@ body {
   }
   .container {
     position: relative;
+    transform: scale(0.25); /* Scales the container to 25% of its original size */
+    transform-origin: center; /* Ensures the scaling happens from the center */
   }
   .image {
     max-width: 100%;
