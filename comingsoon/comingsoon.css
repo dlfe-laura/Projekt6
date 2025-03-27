@@ -10,8 +10,8 @@ body {
   }
   .container {
     position: relative;
-    width: 25%; /* Set the container to 25% of the viewport width */
-    max-width: 400px; /* Optional: Limit the maximum size */
+    width: 15%; /* Set the container to 25% of the viewport width */
+    max-width: 200px; /* Optional: Limit the maximum size */
     margin: 0 auto; /* Center the container horizontally */
 }
 .image {
