@@ -44,6 +44,21 @@
     font-style: var(--body-text-font-style);
   }
 
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  .nav-button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
   .hero-image {
     position: relative;
     width: 1280px;
