@@ -131,8 +131,8 @@
 }
   
 .image{
-  width: 704px;
-  height: 704px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   overflow: hidden;
   background-image: url(./img/image.png);
