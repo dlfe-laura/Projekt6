@@ -163,12 +163,19 @@
     font-size: 16px;
     font-weight: bold;
   }
+
+  .social-icons {
+    display: flex; /* Align icons horizontally */
+    justify-content: center; /* Center the icons */
+    gap: 20px; /* Add equal spacing between the icons */
+  }
+
   .social-icons a {
     margin-right: 10px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    display: flex; /* Align icon and text horizontally */
+    display: inline-block; /* Align icon and text horizontally */
     align-items: center; /* Vertically align icon and text */
   }
   
