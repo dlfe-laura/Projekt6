@@ -27,8 +27,8 @@
   }
 
   .logo img {
-    height: 10%;
-    width: auto;
+    width: 10%; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
   }
   
   .nav a {
