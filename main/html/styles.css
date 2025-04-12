@@ -22,7 +22,7 @@
   }
 
   .logo img {
-    width: 10%; 
+    width: 5%; 
     height: auto; /* Maintain aspect ratio */
   }
   
@@ -165,5 +165,6 @@
   
   .social-icons a:hover {
     color: #000;
+    filter: brightness(0.8);  /* Darken the icon on hover */
   }
   
