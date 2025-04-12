@@ -1,33 +1,30 @@
 .navigation {
-    position: relative;
-    width: 1440px;
-    height: 164px;
-    background-color: #ffffff;
-  }
-  
-  .navigation .items {
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: var(--variable-collection-spacing-m);
-    position: absolute;
-    top: 56px;
-    left: 957px;
-  }
-  
-  .navigation .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: var(--body-text-font-family);
-    font-weight: var(--body-text-font-weight);
-    color: #000000;
-    font-size: var(--body-text-font-size);
-    letter-spacing: var(--body-text-letter-spacing);
-    line-height: var(--body-text-line-height);
-    white-space: nowrap;
-    font-style: var(--body-text-font-style);
-  }
+  position: relative;
+  width: 100%; /* Make it responsive */
+  max-width: 1440px; /* Optional: Limit the width for larger screens */
+  height: 164px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and items */
+  padding: 0 20px; /* Add padding for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.navigation .items {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center;
+  gap: var(--variable-collection-spacing-m, 20px); /* Fallback value for spacing */
+}
+
+.navigation .text-wrapper {
+  font-family: var(--body-text-font-family, Arial, sans-serif); /* Fallback font */
+  font-weight: var(--body-text-font-weight, 500); /* Fallback weight */
+  color: #000000;
+  font-size: var(--body-text-font-size, 16px); /* Fallback size */
+  letter-spacing: var(--body-text-letter-spacing, 0px); /* Fallback letter spacing */
+  line-height: var(--body-text-line-height, 1.5); /* Fallback line height */
+}
   
   .navigation .div {
     position: absolute;
