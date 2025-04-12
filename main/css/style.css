@@ -56,7 +56,7 @@
   
   .nav-button:hover {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .hero-image {
@@ -128,12 +128,12 @@
   gap: 10px; /* Add spacing between buttons */
 }
   
-  .image{
-    width: 704px;
-    height: 704px;
-    border-radius: 8px;
-    overflow: hidden;
-    background-image: url(./img/image.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
+.image{
+  width: 704px;
+  height: 704px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}

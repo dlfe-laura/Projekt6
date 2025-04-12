@@ -3,11 +3,14 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+/* Ensure margins are respected */
 html,
 body {
-  margin: 20px;
-  height: 100%;
+  margin: 20px; /* Add typical margins for webpages */
+  padding: 0; /* Reset padding */
+  height: auto; /* Allow the body to grow with content */
 }
+
 /* a blue color as a generic focus style */
 button:focus-visible {
   outline: 2px solid #000000 !important;
