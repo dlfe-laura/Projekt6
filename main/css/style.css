@@ -5,16 +5,21 @@
   height: 164px;
   background-color: #ffffff;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/ /* Center items vertically */
   justify-content: space-between; /* Space between logo and items */
   padding: 0 20px; /* Add padding for spacing */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
 .navigation .items {
-  display: flex; /* Use flexbox for alignment */
+  display: inline-flex; /* Use flexbox for alignment */
   align-items: center;
+  justify-content: flex-end; /* Align items to the right */
   gap: var(--variable-collection-spacing-m, 20px); /* Fallback value for spacing */
+  position: absolute
+  top: 56px;
+  left: 50%; /* Centered horizontally as an example */
+  transform: translateX(-50%); /* Adjust for centering */
 }
 
 .navigation .text-wrapper {
