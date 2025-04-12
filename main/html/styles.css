@@ -22,7 +22,7 @@
   }
 
   .logo img {
-    width: 10%; /* Fixed width */
+    width: 20%; 
     height: auto; /* Maintain aspect ratio */
   }
   
