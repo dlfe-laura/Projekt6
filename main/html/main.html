@@ -1,60 +1,88 @@
-<!--This will be the html of the main page of the website-->
-<!DOCTYPE html>
-<html lang="en"> <!-- Set language -->
+  <!DOCTYPE html>
+  <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link to global styles -->
-    <link rel="stylesheet" href="../css/globals.css" />
-    <link rel="stylesheet" href="../css/styleguide.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Projekt6</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Navigation Section -->
-    <div class="navigation">
-      <div class="items">
-        <button class="nav-button">About us</button>
-        <button class="nav-button">Get involved</button>
-        <button class="nav-button">Resources</button>
+  
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <img src="P6_White.png" alt="Projekt6 Logo">
       </div>
-      <div class="image">
-        <img src="https://raw.githubusercontent.com/dlfe-laura/Projekt6/main/comingsoon/figures/P6_White.png"
-        alt="Projekt6 Logo" />
-      </div>
-    </div>
-    <div class="hero-image">
-      <div class="text-wrapper">Projekt6</div>
-    </div>
-    <div class="hero-image"><img class="element" src="kjdfjsdf.png"></div>
-    <div class="label">
-      <div class="text-wrapper">Who are we?</div>
-    </div>
-      <p class="text-wrapper">
+      <nav class="nav">
+        <a href="#">About us</a>
+        <a href="#">Get involved</a>
+        <a href="#">Resources</a>
+      </nav>
+    </header>
+  
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="hero-image.jpg" alt="Empower, Educate, Advocate for Sexual Health">
+    </section>
+  
+    <!-- Who Are We -->
+    <section class="who-we-are">
+      <h2>Who are we?</h2>
+      <p>
         P6 is a politically and religiously independent student association that works with 
         STI, HIV and pregnancy prevention as well as sexual and relationship issues. 
         P6 target group is students at Lund University. Our goal is to gain greater 
         awareness and safer sexual behavior among Lund's students.
         We also work to increase respect for different individuals' sexuality.
       </p>
-    </div>
-    <button class="button"><span class="text-wrapper">More about us</span></button>
-
-    <div class="label">
-      <div class="text-wrapper">Join us!</div>
-    </div>
-      <div class="content">
-        <div class="text">
-          <p> For our members, we arrange ongoing training opportunities, discussion meetings, 
+      <button>More about us</button>
+    </section>
+  
+    <!-- Join Us -->
+    <section class="join-us">
+      <div class="join-content">
+        <div class="join-text">
+          <h3>Join us</h3>
+          <p>
+            For our members, we arrange ongoing training opportunities, discussion meetings, 
             film evenings and other pleasant member activities. The activities are based on 
             the wishes of the members. If you want to become a member, you can become one 
-            by visiting our office, contacting us via e-mail or on our website.</p>
+            by visiting our office, contacting us via e-mail or on our website.
+          </p>
+          <button>Our committees</button>
         </div>
-        <div class="image">
-          <img src="P6_White.png" alt="P6 White Logo" />
+        <div class="join-image">
+          <img src="fruit-basket.jpg" alt="Basket with peaches and camera">
         </div>
       </div>
-    <button class="button"><span class="text-wrapper">Get active!</span></button>
-
+    </section>
+  
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-column">
+        <h4>Projekt6</h4>
+        <div class="social-icons">
+          <!-- Replace with icons or links -->
+          <a href="#">FB</a>
+          <a href="#">IN</a>
+          <a href="#">YT</a>
+          <a href="#">IG</a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Contact us</h4>
+        <p>email</p>
+        <p>Social Media</p>
+        <p>Page</p>
+      </div>
+      <div class="footer-column">
+        <h4>Address</h4>
+        <p>Lund, Sweden</p>
+        <p>AF Building</p>
+        <p>Page</p>
+      </div>
+    </footer>
+  
   </body>
-
-
+  </html>
+  

@@ -1,0 +1,167 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+  }
+  
+  .header .logo {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .logo img {
+    height: 10%;
+    width: auto;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  
+  /* Who Are We */
+  .who-we-are {
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .who-we-are h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .who-we-are p {
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .who-we-are button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .who-we-are button:hover {
+    background: #444;
+  }
+  
+  /* Join Us Section */
+  .join-us {
+    background-color: #f8f8f8;
+    padding: 60px 40px;
+  }
+  
+  .join-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .join-text {
+    flex: 1;
+  }
+  
+  .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .join-text p {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .join-text button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-text button:hover {
+    background: #444;
+  }
+  
+  .join-image {
+    flex: 1;
+  }
+  
+  .join-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
