@@ -31,18 +31,26 @@
     font-size: 18px;
   }
 
+/* Navigation Menu */
+  .nav {
+    display: flex; /* Use flexbox to align links horizontally */
+    gap: 20px; /* Add spacing between the links */
+  }
 
-  
   .nav a {
+    text-decoration: none; /* Remove underline from links */
     margin-left: 20px;
-    text-decoration: none;
     color: #000;
+    font-weight: bold; /* Make the links bold */
+    font-size: 1rem; /* Set font size */
+    padding: 5px 10px; /* Add padding for clickable area */
   }
-  
+
   .nav a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Optional: Add underline on hover */
   }
   
+
   /* Hero Section */
   .hero img {
     width: 100%;
