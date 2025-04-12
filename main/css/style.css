@@ -120,4 +120,12 @@
     font-style: var(--single-line-body-base-font-style);
   }
   
-  
+  .image{
+    width: 704px;
+    height: 704px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
