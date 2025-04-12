@@ -39,11 +39,11 @@
 
   .nav a {
     text-decoration: none; /* Remove underline from links */
-    margin-left: 20px;
-    color: #000;
+    color: #333; /* Set link color */
     font-weight: bold; /* Make the links bold */
     font-size: 1rem; /* Set font size */
     padding: 5px 10px; /* Add padding for clickable area */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
   }
 
   .nav a:hover {
