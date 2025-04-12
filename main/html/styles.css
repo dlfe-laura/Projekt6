@@ -20,16 +20,18 @@
     padding: 20px 40px;
     background: #fff;
   }
+
+  .logo img {
+    width: 10%; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+  }
   
   .header .logo {
     font-weight: bold;
     font-size: 18px;
   }
 
-  .logo img {
-    width: 10%; /* Fixed width */
-    height: auto; /* Maintain aspect ratio */
-  }
+
   
   .nav a {
     margin-left: 20px;
