@@ -155,16 +155,23 @@
     font-size: 16px;
     font-weight: bold;
   }
-  
   .social-icons a {
     margin-right: 10px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically align icon and text */
+  }
+  
+  .social-icons a img {
+    width: 24px; /* Set a fixed width for the icons */
+    height: 24px; /* Set a fixed height for the icons */
+    display: inline-block; /* Ensure the icons align properly with text */
+    margin-right: 5px; /* Add spacing between the icon and the text */
   }
   
   .social-icons a:hover {
     color: #000;
-    filter: brightness(0.8);  /* Darken the icon on hover */
+    filter: brightness(0.8); /* Darken the icon on hover */
   }
-  
