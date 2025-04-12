@@ -119,6 +119,14 @@
     white-space: nowrap;
     font-style: var(--single-line-body-base-font-style);
   }
+
+  /* Center the navigation buttons */
+.items {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+  gap: 10px; /* Add spacing between buttons */
+}
   
   .image{
     width: 704px;
