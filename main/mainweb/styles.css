@@ -196,6 +196,17 @@
     filter: brightness(0.8); /* Darken the icon on hover */
   }
 
+  .footer-column.logos {
+    display: flex;
+    justify-content: center; /* Center the logos horizontally */
+    gap: 20px; /* Add spacing between the logos */
+  }
+  
+  .footer-logo {
+    width: 50px; /* Set a fixed width for the logos */
+    height: auto; /* Maintain aspect ratio */
+  }
+
   /* Committees */
 .page-title {
   text-align: center;
