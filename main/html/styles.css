@@ -137,8 +137,8 @@
   }
   
   .join-image img {
-    width: 10%;
-    border-radius: 10px;
+    width: 50%;
+    border-radius: 2px;
     object-fit: cover;
   }
   
