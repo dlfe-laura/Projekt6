@@ -197,6 +197,14 @@
   }
 
   /* Committees */
+
+  /* Title */
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  margin: 40px 0;
+}
+
 .committees {
   max-width: 1000px;
   margin: auto;
