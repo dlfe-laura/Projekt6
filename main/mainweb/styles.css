@@ -203,8 +203,9 @@
   }
   
   .footer-logo {
-    width: 20%; /* Set a fixed width for the logos */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100px; /* Set a maximum width for the logos */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure proper alignment */
   }
 
   /* Committees */
