@@ -137,7 +137,7 @@
   }
   
   .join-image img {
-    width: 50%;
+    width: 80%;
     border-radius: 2px;
     object-fit: cover;
   }
@@ -195,3 +195,49 @@
     color: #000;
     filter: brightness(0.8); /* Darken the icon on hover */
   }
+
+  /* Committees */
+.committees {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.committee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.committee.reverse {
+  flex-direction: row-reverse;
+}
+
+.committee-text {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+}
+
+.committee-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.committee-text p {
+  color: #555;
+}
+
+.committee-img {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+}
+
+.committee-img img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
