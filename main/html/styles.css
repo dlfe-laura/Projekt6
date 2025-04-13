@@ -52,12 +52,12 @@
   
 
   /* Hero Section */
-  .hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-    margin: 0 auto;
+  .hero video {
+    width: 100%; /* Make the video responsive and take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra spacing below the video */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
   }
   
   /* Who Are We */
