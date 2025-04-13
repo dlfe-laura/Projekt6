@@ -163,6 +163,11 @@
     font-weight: bold;
   }
 
+  .footer-column a {
+    text-decoration: none;
+    color: #333;
+  }
+
   .social-icons {
     display: flex; /* Align icons horizontally */
     gap: 20px; /* Add spacing between the icons */
