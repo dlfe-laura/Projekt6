@@ -166,9 +166,10 @@
 
   .social-icons {
     display: flex; /* Align icons horizontally */
-    justify-content: center; /* Center the icons */
-    gap: 20px; /* Add equal spacing between the icons */
-  }
+    gap: 20px; /* Add spacing between the icons */
+    align-items: center; /* Align icons vertically with text */
+    margin-left: 0; /* Align with the starting point of the h4 */
+}
 
   .social-icons a {
     margin-right: 10px;
