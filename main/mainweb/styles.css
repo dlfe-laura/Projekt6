@@ -201,6 +201,7 @@
     justify-content: center; /* Center the logos horizontally */
     align-items: center; /* Center the logos vertically */
     gap: 20px; /* Add spacing between the logos */
+    margin-left: 20px; /* Optional: Add additional left margin */
   }
   
   .footer-logo {
