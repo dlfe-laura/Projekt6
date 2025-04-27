@@ -262,6 +262,19 @@
   object-fit: cover;
 }
 
+.committee button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.committee button:hover {
+  background: #444;
+}
+
 /* About us */
 .main-content {
   max-width: 900px;
