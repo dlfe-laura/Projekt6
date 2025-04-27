@@ -262,17 +262,29 @@
   object-fit: cover;
 }
 
-.committee button {
+.intro-text {
+  text-align: center;
+  margin-bottom: 30px; /* Add spacing below the intro text */
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Add spacing between the paragraph and the button */
+}
+
+.intro-text button {
   padding: 10px 20px;
-  background: #000;
-  color: #fff;
+  font-size: 1rem;
+  background-color: #000000;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.committee button:hover {
-  background: #444;
+.intro-text button:hover {
+  background-color: #444; /* Darker on hover */
 }
 
 /* About us */
