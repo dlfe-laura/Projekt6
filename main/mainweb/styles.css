@@ -392,3 +392,37 @@
   flex: 1;
   min-width: 300px;
 }
+
+/*Resources*/ 
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.resource-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  padding-bottom: 20px;
+}
+
+.resource-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.resource-card h2 {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.resource-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0 15px;
+}
+
