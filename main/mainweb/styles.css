@@ -399,13 +399,16 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
   gap: 30px; /* Spacing between rows and columns */
+  padding: 0 20px; /* Add padding to the left and right of the grid */
+  margin: 0 auto; /* Center the grid horizontally */
+  max-width: 1200px; /* Optional: Limit the maximum width of the grid */
 }
 
 .resource-card {
   background: #f9f9f9;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   padding-bottom: 20px;
 }
 
