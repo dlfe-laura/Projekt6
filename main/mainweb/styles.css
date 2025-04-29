@@ -198,10 +198,10 @@
 
   .footer-column.logos {
     display: flex;
-    justify-content: center; /* Center the logos horizontally */
+    justify-content: flex-start; /* Align logos to the left */
     align-items: center; /* Center the logos vertically */
-    gap: 35px; /* Add spacing between the logos */
-    margin-left: 80px; /* Optional: Add additional left margin */
+    gap: 20px; /* Add spacing between the logos */
+    margin-left: 40px; /* Move the logos further to the left */
   }
   
   .footer-logo {
