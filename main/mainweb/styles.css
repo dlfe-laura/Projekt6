@@ -395,12 +395,18 @@
 
 /*Resources*/ 
 
+.title {
+  text-align: center; /* Center the title horizontally */
+  font-size: 2rem; /* Optional: Adjust the font size */
+  margin: 20px 0; /* Add spacing above and below the title */
+}
+
 .resources-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
   gap: 30px; /* Spacing between rows and columns */
   padding: 0 20px; /* Add padding to the left and right of the grid */
-  margin: 0 auto; /* Center the grid horizontally */
+  margin: 40px auto; /* Add spacing above and below the grid, and center it horizontally */
   max-width: 1200px; /* Optional: Limit the maximum width of the grid */
 }
 
@@ -410,12 +416,28 @@
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   padding-bottom: 20px;
+  margin: 20px 0; /* Add spacing above and below each card */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.resource-card:hover {
+  background-color: #f0f0f0; /* Slightly reduce the color on hover */
+  transform: translateY(-5px); /* Slightly lift the card on hover */
 }
 
 .resource-card img {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  border-radius: 8px 8px 0 0; /* Rounded corners for the top of the card */
+}
+
+.resource-card a {
+  display: block; /* Ensure the image link takes up the full width */
+}
+
+.resource-card a img:hover {
+  filter: brightness(0.9); /* Slightly darken the image on hover */
 }
 
 .resource-card h2 {
