@@ -201,7 +201,7 @@
     justify-content: flex-start; /* Align logos to the left */
     align-items: center; /* Center the logos vertically */
     gap: 20px; /* Add spacing between the logos */
-    margin-left: 40px; /* Move the logos further to the left */
+    margin-left: 60px; /* Move the logos further to the left */
   }
   
   .footer-logo {
