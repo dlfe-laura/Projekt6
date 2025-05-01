@@ -42,62 +42,69 @@
          </a>
       </div>
 
-      <!-- Committees Section -->
-
-      <div class="committee">
-        <div class="committee-text">
-          <h3>LGBTQ+</h3>
-          <p>The LGBTQ+ committee promotes inclusion, support, and visibility for LGBTQ+ students. 
-            We organize events, raise awareness, advocate for equality, and provide safe spaces for 
-            community and dialogue. Through collaboration and education, we  
-            work to create a welcoming campus environment where all identities are respected and celebrated.</p>
-        </div>
-        <div class="committee-img">
-          <img src="fruit1.jpg" alt="Fruit image 1">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="socialmedia.jpeg" alt="Slide 1">
+          <img src="AF-logo-transparent.png" alt="Slide 2">
+          <img src="RFSU-logo.png" alt="Slide 3">
         </div>
       </div>
-
-      <div class="committee reverse">
-        <div class="committee-img">
-          <img src="fruit2.jpg" alt="Fruit image 2">
+    
+      <section class="grid">
+        <div>
+          <h2>LGBTQ+</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-        <div class="committee-text">
-          <h3>Education</h3>
-          <p>The Education Committee focuses on producing educational events and workshops. 
-            We do everything from Sex-Ed Pub Quizzes to Movie Nights to Sexy Fikas. In our 
-            committee we try to spread education about sexual health in a receptive way and 
-            create spaces where people can openly discuss and learn about sexual health. </p>
+        <div>
+          <h2>Education</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-      </div>
-
-      <div class="committee">
-        <div class="committee-text">
-          <h3>Communication and Social Media</h3>
-          <p>We Marketing and Social Media team are responsible for our online presence and the community. 
-            By sharing event information, behind the scenes or educational contents regarding sexual health 
-            in our own fun ways on the platforms like Instagram or Facebook, we try our best to make a 
-            difference!</p>
+        <div>
+          <h2>Social Media</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-        <div class="committee-img">
-          <img src="socialmedia.jpeg" alt="Social Media Committee">
+        <div>
+          <h2>Internal Affairs</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-      </div>
-
-      <div class="committee reverse">
-        <div class="committee-img">
-          <img src="fruit4.jpg" alt="Fruit image 4">
+      </section>
+    
+      <h1 class="section-title">Board</h1>
+    
+      <section class="grid">
+        <div>
+          <h2>Chairperson</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-        <div class="committee-text">
-          <h3>Internal Communications</h3>
-          <p>The Head of Internal Communications at ProjektSex manages internal messaging, 
-            responds to emails, and shares key updates with committees. They attend board meetings, 
-            support event planning, and create the organisation's newsletter. Their role ensures 
-            smooth communication, team alignment, and a connected, informed community across all 
-            areas of the student sexual health organisation.</p>
+        <div>
+          <h2>Treasurer</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
         </div>
-      </div>
-
-    </section>
+        <div>
+          <h2>Internal Affairs</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+        <div>
+          <h2>Education</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+        <div>
+          <h2>LGBTQ+</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+        <div>
+          <h2>Social Media</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+        <div>
+          <h2>Outreach</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+        <div>
+          <h2>IT Specialist</h2>
+          <p>A subheading for this section, as long or as short as you like</p>
+        </div>
+      </section>
   </main>
 
   <!-- Footer -->
@@ -139,6 +146,19 @@
       <p>223 50, Lund</p>
     </div>
   </footer>
+
+  <!-- JavaScript for Carousel -->
+
+  <script>
+    // Carousel auto-slide
+    const track = document.querySelector('.carousel-track');
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % 3;
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }, 3000);
+  </script>
+  
 
 </body>
 </html>

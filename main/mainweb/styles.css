@@ -132,14 +132,44 @@
     background: #444;
   }
   
-  .join-image {
-    flex: 1;
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    border-radius: 12px;
   }
   
-  .join-image img {
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+  }
+  
+  .carousel img {
     width: 100%;
-    border-radius: 5px;
+    height: 220px;
     object-fit: cover;
+    flex: 1 0 100%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 20px auto 60px;
+    padding: 0 20px;
+  }
+  
+  .grid h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .grid p {
+    font-size: 14px;
+    color: #555;
   }
   
   /* Footer */
@@ -201,7 +231,7 @@
     justify-content: flex-start; /* Align logos to the left */
     align-items: center; /* Center the logos vertically */
     gap: 20px; /* Add spacing between the logos */
-    margin-left: 100 px; /* Move the logos further to the left */
+    margin-left: 100f px; /* Move the logos further to the left */
   }
   
   .footer-logo {
