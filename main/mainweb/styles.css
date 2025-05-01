@@ -263,6 +263,13 @@
   flex: 1 0 100%;
 }
 
+.section-title {
+  text-align: left; /* Align the title to the left */
+  margin-left: 20px; /* Add the same left margin as the grid */
+  font-size: 2rem; /* Optional: Adjust the font size */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
