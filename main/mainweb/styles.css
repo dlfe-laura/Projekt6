@@ -91,6 +91,13 @@
   }
   
   /* Join Us Section */
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   .join-us {
     background-color: #f8f8f8;
     padding: 60px 40px;
