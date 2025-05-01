@@ -257,8 +257,8 @@
 
 .carousel img {
   width: 100%; /* Make the image take up the full width of its container */
-  height: auto; /* Maintain the aspect ratio of the image */
-  object-fit: contain; /* Ensure the entire image is visible without cropping */
+  height: 300px; /* Set a fixed height for the carousel */
+  object-fit: cover; /* Crop the image to fit the container, focusing on the center */
   flex: 1 0 100%; /* Ensure each image takes up 100% of the carousel's width */
 }
 
