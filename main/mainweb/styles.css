@@ -265,8 +265,8 @@
 
 .section-title {
   text-align: left; /* Align the title to the left */
-  margin-left: 20px; /* Add the same left margin as the grid */
-  font-size: 20px; /* Optional: Adjust the font size */
+  margin-left: 60px; /* Add the same left margin as the grid */
+  font-size: 24px; /* Optional: Adjust the font size */
   margin-bottom: 20px; /* Add spacing below the title */
 }
 
