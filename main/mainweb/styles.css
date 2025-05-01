@@ -257,7 +257,7 @@
 
 .carousel img {
   width: 100%; /* Make the image take up the full width of its container */
-  height: 300px; /* Set a fixed height for the carousel */
+  height: 450px; /* Set a fixed height for the carousel */
   object-fit: cover; /* Crop the image to fit the container, focusing on the center */
   flex: 1 0 100%; /* Ensure each image takes up 100% of the carousel's width */
 }
