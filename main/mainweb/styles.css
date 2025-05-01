@@ -217,51 +217,6 @@
   margin: 40px 0;
 }
 
-.committees {
-  max-width: 1000px;
-  margin: auto;
-  padding: 0 20px;
-}
-
-.committee {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 60px;
-  flex-wrap: wrap;
-}
-
-.committee.reverse {
-  flex-direction: row-reverse;
-}
-
-.committee-text {
-  flex: 1;
-  min-width: 250px;
-  padding: 20px;
-}
-
-.committee-text h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.committee-text p {
-  color: #555;
-}
-
-.committee-img {
-  flex: 1;
-  min-width: 250px;
-  padding: 20px;
-}
-
-.committee-img img {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
 .intro-text {
   text-align: center;
   margin-bottom: 30px; /* Add spacing below the intro text */
