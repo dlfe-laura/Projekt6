@@ -264,18 +264,19 @@
 
 .section-title {
   text-align: left; /* Align the title to the left */
-  margin-left: 60px; /* Add the same left margin as the grid */
+  margin-left: 20px; /* Match the grid's padding or margin */
   font-size: 24px; /* Optional: Adjust the font size */
+  margin-top: 40px; /* Add vertical spacing above the title */
   margin-bottom: 20px; /* Add spacing below the title */
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  max-width: 1000px;
-  margin: 20px auto 60px;
-  padding: 0 20px;
+  grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+  gap: 30px; /* Add spacing between rows and columns */
+  max-width: 1000px; /* Optional: Limit the grid width */
+  margin: 0 auto; /* Center the grid horizontally */
+  padding: 0 20px; /* Add padding to the left and right */
 }
 
 .grid h2 {
