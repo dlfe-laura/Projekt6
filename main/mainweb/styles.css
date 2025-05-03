@@ -219,7 +219,8 @@
 
 .intro-text {
   text-align: center;
-  margin-bottom: 30px; /* Add spacing below the intro text */
+  margin: 0 auto 30px; /* Center the intro text and add spacing below */
+  max-width: 600px; /* Limit the width of the intro text */
 }
 
 .intro-text p {
