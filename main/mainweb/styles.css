@@ -243,7 +243,7 @@
 }
 
 .carousel {
-  width: 95%; /* Make the carousel span almost the entire width of the page */
+  width: 90%; /* Make the carousel span almost the entire width of the page */
   margin: 0 auto; /* Center the carousel horizontally */
   overflow: hidden; /* Hide any overflowing content */
   border-radius: 12px; /* Optional: Add rounded corners */
