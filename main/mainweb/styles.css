@@ -220,7 +220,7 @@
 .intro-text {
   text-align: center;
   margin: 0 auto 30px; /* Center the intro text and add spacing below */
-  max-width: 1000px; /* Limit the width of the intro text */
+  max-width: 1200px; /* Limit the width of the intro text */
 }
 
 .intro-text p {
