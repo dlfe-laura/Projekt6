@@ -47,7 +47,9 @@
   }
 
   .nav a:hover {
-    text-decoration: none; /* Optional: Add underline on hover */
+    color: #555; /* Change the text color to a lighter shade on hover */
+    text-decoration: none; /* Ensure no underline appears on hover */
+    transition: color 0.3s ease; /* Add a smooth transition effect */
   }
   
 
