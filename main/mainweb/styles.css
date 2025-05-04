@@ -51,8 +51,7 @@
     z-index: 1;
   }
 
-
-  .nav::before {
+  .nav a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -66,7 +65,7 @@
     z-index: -1;
   }
 
-  .nav:hover::before {
+  .nav a:hover::before {
     transform: scaleX(1);
   }
 
