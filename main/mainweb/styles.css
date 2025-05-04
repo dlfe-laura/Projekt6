@@ -252,6 +252,8 @@
 }
 
 .intro-text p {
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 20px; /* Add spacing between the paragraph and the button */
@@ -294,6 +296,8 @@
 .section-title {
   text-align: left; /* Align the title to the left */
   margin-left: 20px; /* Match the grid's padding */
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 24px; /* Optional: Adjust the font size */
   margin-top: 40px; /* Add vertical spacing above the title */
   margin-bottom: 20px; /* Add spacing below the title */
