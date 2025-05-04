@@ -400,6 +400,8 @@
 }
 
 .contact-info p {
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
   margin-bottom: 12px;
   font-size: 16px;
 }
