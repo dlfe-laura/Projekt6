@@ -279,8 +279,6 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 20px; /* Add spacing between the paragraph and the button */
-  text-align: justify; /* Justify the text */
-  
 }
 
 .intro-text button {
