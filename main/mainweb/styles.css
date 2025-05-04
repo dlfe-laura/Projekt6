@@ -49,6 +49,7 @@
     white-space: nowrap; /* Prevent text from wrapping to the next line */
     overflow: hidden; /* Ensure the pseudo-element stays within the link */
     z-index: 1;
+    transition: color 0.3s ease-out; /* Smooth transition for text color */
   }
 
   .nav a::before {
@@ -56,23 +57,23 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    transform: scaleX(0);
+    height: 100%;
+    background-color: rgb(0, 0, 0); /* Black background color */
+    transform: scaleX(0); /* Start with the background collapsed */
     transform-origin: left;
-    transition: transform 0.3s ease-out;
-    z-index: -1;
+    transition: transform 0.3s ease-out; /* Smooth transition for background expansion */
+    z-index: -1; /* Ensure background stays behind the text */
   }
 
   .nav a:hover::before {
     transform: scaleX(1);
   }
 
-  /*.nav a:hover {
+  .nav a:hover {
     background-color: #cd1e1e;
     color: #fff;
-  }*/
+  }
   
 
   /* Hero Section */
