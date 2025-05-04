@@ -182,8 +182,16 @@
   }
 
   .footer-column a {
+    font-family: 'Aleo'; /* Apply Aleo font */
+    font-weight: 400; /* Regular */
     text-decoration: none;
     color: #333;
+  }
+
+  footer-column p {
+    font-family: 'Aleo'; /* Apply Aleo font */
+    font-weight: 400; /* Regular */
+    color: #555;
   }
 
   .social-icons {
