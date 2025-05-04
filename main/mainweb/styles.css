@@ -343,6 +343,8 @@
 
 .about-intro p {
   color: #444;
+  font-family: Aleo; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
   font-size: 16px;
 }
 
