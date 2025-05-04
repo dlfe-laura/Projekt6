@@ -47,27 +47,13 @@
     padding: 5px 10px; /* Add padding for clickable area */
     white-space: nowrap; /* Prevent text from wrapping to the next line */
     overflow: hidden; /* Ensure the pseudo-element stays within the link */
+    transition: background 0.3s ease, color 0.3s ease;
   }
 
-  .nav a::before {
-    content: ''; /* Create a pseudo-element */
-    position: absolute; /* Position it relative to the link */
-    top: 0; /* Align with the top of the link */
-    left: 0; /* Start from the left */
-    width: 100%; /* Full width of the link */
-    height: 100%; /* Full height of the link */
-    background-color: red; /* Set the background color */
-    z-index: -1; /* Place it behind the text */
-    transform: translateX(-100%); /* Start completely off-screen to the left */
-    transition: transform 0.3s ease; /* Smooth animation for the hover effect */
-  }
-  
-  .nav a:hover::before {
-    transform: translateX(0); /* Move the background to fully cover the text */
-  }
 
   .nav a:hover {
-    color: #fff; /* Change the text color to white for contrast */
+    background-color: #cd1e1e;
+    color: #fff;
   }
   
 
