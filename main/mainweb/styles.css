@@ -188,7 +188,7 @@
     color: #333;
   }
 
-  footer-column p {
+  .footer-column p {
     font-family: 'Aleo'; /* Apply Aleo font */
     font-weight: 400; /* Regular */
     color: #555;
