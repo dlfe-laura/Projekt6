@@ -70,7 +70,6 @@
     transform: scaleX(1);
   }
 
-
   /*.nav a:hover {
     background-color: #cd1e1e;
     color: #fff;
@@ -340,11 +339,15 @@
 }
 
 .grid h2 {
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 18px;
   margin-bottom: 5px;
 }
 
 .grid p {
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
   font-size: 14px;
   color: #555;
 }
