@@ -52,17 +52,18 @@
   .nav a::before {
     content: ''; /* Create a pseudo-element */
     position: absolute; /* Position it relative to the link */
-    top: 100%; /* Start below the link */
-    left: 0;
+    top: 0; /* Align with the top of the link */
+    left: 0; /* Start from the left */
     width: 100%; /* Full width of the link */
     height: 100%; /* Full height of the link */
-    background-color: red; /* Set the background color for the "square" */
+    background-color: red; /* Set the background color */
     z-index: -1; /* Place it behind the text */
-    transition: top 0.3s ease; /* Smooth animation for the hover effect */
+    transform: translateX(-100%); /* Start completely off-screen to the left */
+    transition: transform 0.3s ease; /* Smooth animation for the hover effect */
   }
   
   .nav a:hover::before {
-    top: 0; /* Move the square to fill the link on hover */
+    transform: translateX(0); /* Move the background to fully cover the text */
   }
 
   /*.nav a:hover {
