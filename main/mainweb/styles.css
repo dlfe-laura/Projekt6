@@ -73,6 +73,8 @@
   .who-we-are h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
   }
   
   .who-we-are p {
@@ -81,6 +83,9 @@
   }
   
   .who-we-are button {
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
+    font-size: 1rem; /* Adjust font size */
     padding: 10px 20px;
     background: #000;
     color: #fff;
@@ -115,6 +120,8 @@
   .join-text h3 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
   }
   
   .join-text p {
@@ -123,6 +130,9 @@
   }
   
   .join-text button {
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
+    font-size: 1rem; /* Adjust font size */
     padding: 10px 20px;
     background: #000;
     color: #fff;
