@@ -38,6 +38,7 @@
   }
 
   .nav a {
+    position: relative;
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Set link color */
     font-family: 'League Spartan', sans-serif;
