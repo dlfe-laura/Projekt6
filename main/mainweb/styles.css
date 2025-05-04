@@ -176,8 +176,9 @@
   
   .footer-column h4 {
     margin-bottom: 10px;
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
     font-size: 16px;
-    font-weight: bold;
   }
 
   .footer-column a {
