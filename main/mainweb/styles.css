@@ -230,6 +230,8 @@
   /* Committees */
 .page-title {
   text-align: center;
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 28px;
   margin: 40px 0;
 }
@@ -324,6 +326,8 @@
 }
 
 .about-intro h1 {
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -375,6 +379,8 @@
 
 .contact-section h1 {
   text-align: center;
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -421,6 +427,8 @@
 
 .title {
   text-align: center; /* Center the title horizontally */
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 2rem; /* Optional: Adjust the font size */
   margin: 20px 0; /* Add spacing above and below the title */
 }
