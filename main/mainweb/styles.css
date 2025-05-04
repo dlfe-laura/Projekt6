@@ -39,6 +39,7 @@
 
   .nav a {
     position: relative;
+    display: inline-block; /* Make the link a block element */
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Set link color */
     font-family: 'League Spartan', sans-serif;
@@ -47,14 +48,33 @@
     padding: 5px 10px; /* Add padding for clickable area */
     white-space: nowrap; /* Prevent text from wrapping to the next line */
     overflow: hidden; /* Ensure the pseudo-element stays within the link */
-    transition: background 0.3s ease, color 0.3s ease;
+    z-index: 1;
   }
 
 
-  .nav a:hover {
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-out;
+    z-index: -1;
+  }
+
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+
+
+  /*.nav a:hover {
     background-color: #cd1e1e;
     color: #fff;
-  }
+  }*/
   
 
   /* Hero Section */
