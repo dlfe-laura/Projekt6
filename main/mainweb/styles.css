@@ -349,6 +349,8 @@
 }
 
 .history h2 {
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -366,6 +368,8 @@
 }
 
 .history-text p {
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
   color: #333;
 }
 
