@@ -335,6 +335,8 @@
 }
 
 .section-title p {
+  text-align: left; /* Align the title to the left */
+  margin-left: 20px; /* Match the grid's padding */
   font-family: 'Aleo'; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 14px;
