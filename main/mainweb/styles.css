@@ -317,6 +317,13 @@
   margin: 40px auto 20px; /* Center the title horizontally */
 }
 
+.section-title a {
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set link color */
+}
+
 .section-title button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -329,13 +336,6 @@
 
 .section-title button:hover {
   background-color: #444; /* Darker on hover */
-}
-
-.section-title a {
-  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
-  font-weight: 600; /* SemiBold */
-  text-decoration: none; /* Remove underline from links */
-  color: #000; /* Set link color */
 }
 
 .section-title p {
