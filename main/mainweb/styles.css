@@ -309,12 +309,23 @@
   margin-left: 20px; /* Match the grid's padding */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
-  font-size: 24px; /* Optional: Adjust the font size */
+  font-size: 22px; /* Optional: Adjust the font size */
   margin-top: 40px; /* Add vertical spacing above the title */
   margin-bottom: 20px; /* Add spacing below the title */
   padding-left: 20px; /* Ensure alignment with grid text */
   max-width: 1000px; /* Optional: Match the grid's max-width */
   margin: 40px auto 20px; /* Center the title horizontally */
+}
+
+.section-title p {
+  text-align: left; /* Align the title to the left */
+  margin-left: 20px; /* Match the grid's padding */
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px; /* Add spacing above the paragraph */
+  margin-bottom: 20px; /* Add spacing below the paragraph */
 }
 
 .section-title a {
@@ -326,7 +337,7 @@
 
 .section-title button {
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 14px;
   background-color: #000000;
   color: white;
   border: none;
@@ -336,16 +347,6 @@
 
 .section-title button:hover {
   background-color: #444; /* Darker on hover */
-}
-
-.section-title p {
-  text-align: left; /* Align the title to the left */
-  margin-left: 20px; /* Match the grid's padding */
-  font-family: 'Aleo'; /* Apply Aleo font */
-  font-weight: 400; /* Regular */
-  font-size: 14px;
-  color: #555;
-  margin-top: 10px; /* Add spacing above the paragraph */
 }
 
 .grid {
