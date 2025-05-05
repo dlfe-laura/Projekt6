@@ -299,9 +299,9 @@
 
 .carousel img {
   width: 100%; /* Make the image take up the full width of its container */
-  height: 300px; /* Reduce the height of the images */
-  object-fit: contain; /* Ensure the entire image is visible without cropping */
-  margin: 0 auto; /* Center the images horizontally */
+  height: 400px; /* Reduce the height of the carousel */
+  object-fit: cover; /* Crop the image to fit the container, focusing on the center */
+  flex: 1 0 100%; /* Ensure each image takes up 100% of the carousel's width */
 }
 
 .section-title {
