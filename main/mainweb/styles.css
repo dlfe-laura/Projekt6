@@ -327,6 +327,21 @@
   background-color: #444; /* Darker on hover */
 }
 
+.section-title a {
+  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+  font-weight: 600; /* SemiBold */
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set link color */
+}
+
+.section-title p {
+  font-family: 'Aleo'; /* Apply Aleo font */
+  font-weight: 400; /* Regular */
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px; /* Add spacing above the paragraph */
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
