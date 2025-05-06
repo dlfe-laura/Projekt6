@@ -1,6 +1,6 @@
 # Projekt6
 
-Hi there! This is the manual and files for the P& - Projekt6 website. Here you will find the files for the website (both HTML & CSS) and another screen that can be used if the website is under construction or being modified. 
+Hi there! This is the manual and files for the P6 website. Here you will find the files for the website (both HTML, CSS & Javascript) and another screen that can be used if the website is under construction. 
 
 Copyright <2025> <COPYRIGHT Laura de la Fuente>
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
