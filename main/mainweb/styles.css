@@ -335,6 +335,7 @@
   font-weight: 600; /* SemiBold */
   text-decoration: none; /* Remove underline from links */
   color: #000; /* Set link color */
+  margin-bottom: 10px; /* Add spacing below the link */
 }
 
 .committees button {
