@@ -327,32 +327,17 @@
   max-width: 800px; /* Limit the width of the paragraph */
 }
 
-.committees a {
-  display: inline-block; /* Ensure the link behaves like a block element */
-  text-align: center; /* Center the text inside the link */
-  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
-  font-weight: 600; /* SemiBold */
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Set link text color */
-  background-color: #000; /* Set link background color */
-  border-radius: 5px; /* Add rounded corners */
-  margin-top: 20px; /* Add spacing above the link */
-}
-
-.committees a:hover {
-  background-color: #444; /* Darker background on hover */
-}
-
 .committees button {
-  padding: 10px 10px; /* Add padding for the button */
-  font-size: 14px; /* Adjust font size */
-  background-color: #000; /* Set button background color */
-  color: white; /* Set button text color */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  margin-top: 20px; /* Add spacing above the button */
-}
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
 .committees button:hover {
   background-color: #444; /* Darker background on hover */
