@@ -37,7 +37,7 @@
     gap: 20px; /* Add spacing between the links */
   }
 
-  .nav-links a {
+  .nav a {
     position: relative;
     display: inline-block; /* Make the link a block element */
     text-decoration: none; /* Remove underline from links */
@@ -52,7 +52,7 @@
     transition: color 0.3s ease-out; /* Smooth transition for text color */
   }
 
-  .nav-links a::before {
+  .nav a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -66,39 +66,14 @@
     z-index: -1; /* Ensure background stays behind the text */
   }
 
-  .nav-links a:hover::before {
+  .nav a:hover::before {
     transform: scaleX(1);
   }
 
-  .nav-links a:hover {
+  .nav a:hover {
     color: #fff;
   }
   
-  /* Hamburger Menu */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  border-radius: 2px;
-}
-
-/* Responsive styles: show hamburger menu on smaller screens */
-@media (max-width: 768px) {
-  .hamburger {
-    display: flex; /* Show the hamburger menu */
-  }
-
-  .nav-links {
-    display: none; /* Hide the nav-links by default */
-  }
-}
 
   /* Hero Section */
   .hero video {
@@ -400,7 +375,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four columns of equal width */
   gap: 30px; /* Add spacing between rows and columns */
-  max-width: 1000px; /* Optional: Limit the grid width */
+  max-width: 100px; /* Optional: Limit the grid width */
   margin: 0 auto; /* Center the grid horizontally */
   padding: 0 20px; /* Add padding to the left and right */
   margin-bottom: 40px; /* Add spacing below the grid */
