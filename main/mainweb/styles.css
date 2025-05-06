@@ -267,7 +267,7 @@
 }
 
 .intro-text {
-  text-align: center;
+  text-align: center; 
   margin: 0 auto 30px; /* Center the intro text and add spacing below */
   max-width: 1200px; /* Limit the width of the intro text */
 }
@@ -318,7 +318,6 @@
 }
 
 .committees p {
-  text-align: left; /* Align the title to the left */
   margin-left: 20px; /* Match the grid's padding */
   font-family: 'Aleo'; /* Apply Aleo font */
   font-weight: 400; /* Regular */
