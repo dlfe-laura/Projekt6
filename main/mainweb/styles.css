@@ -304,7 +304,7 @@
   flex: 1 0 80%; /* Ensure each image takes up 100% of the carousel's width */
 }
 
-.section-title {
+.committees h1{
   text-align: left; /* Align the title to the left */
   margin-left: 20px; /* Match the grid's padding */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
@@ -317,7 +317,7 @@
   margin: 40px auto 20px; /* Center the title horizontally */
 }
 
-.section-title p {
+.committees p {
   text-align: left; /* Align the title to the left */
   margin-left: 20px; /* Match the grid's padding */
   font-family: 'Aleo'; /* Apply Aleo font */
@@ -328,14 +328,17 @@
   margin-bottom: 20px; /* Add spacing below the paragraph */
 }
 
-.section-title a {
+.committees a {
+  text-align: center; /* Center the text */
+  display: inline-block; /* Make the link a block element */
+  padding: 10px 20px; /* Add padding for clickable area */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
   text-decoration: none; /* Remove underline from links */
   color: #000; /* Set link color */
 }
 
-.section-title button {
+.committees button {
   padding: 10px 20px;
   font-size: 14px;
   background-color: #000000;
@@ -345,7 +348,7 @@
   cursor: pointer;
 }
 
-.section-title button:hover {
+.committees button:hover {
   background-color: #444; /* Darker on hover */
 }
 
