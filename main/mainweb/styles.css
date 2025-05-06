@@ -375,7 +375,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four columns of equal width */
   gap: 30px; /* Add spacing between rows and columns */
-  max-width: 1200px; /* Optional: Limit the grid width */
+  max-width: 1000px; /* Optional: Limit the grid width */
   margin: 0 auto; /* Center the grid horizontally */
   padding: 0 20px; /* Add padding to the left and right */
   margin-bottom: 40px; /* Add spacing below the grid */
