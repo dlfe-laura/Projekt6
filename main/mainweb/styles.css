@@ -330,7 +330,7 @@
 .committees a {
   display: inline-block; /* Ensure the link behaves like a block element */
   text-align: center; /* Center the text inside the link */
-  padding: 10px 20px; /* Add padding for clickable area */
+  padding: 10px 10px; /* Add padding for clickable area */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
   text-decoration: none; /* Remove underline from links */
