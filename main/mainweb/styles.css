@@ -89,26 +89,14 @@
   border-radius: 2px;
 }
 
-/* Responsive Styles */
+/* Responsive styles: show hamburger menu on smaller screens */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: #fff;
-    width: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
   .hamburger {
-    display: flex;
+    display: flex; /* Show the hamburger menu */
+  }
+
+  .nav-links {
+    display: none; /* Hide the nav-links by default */
   }
 }
 
