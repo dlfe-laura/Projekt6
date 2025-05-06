@@ -344,7 +344,7 @@
 }
 
 .committees button {
-  padding: 10px 20px; /* Add padding for the button */
+  padding: 10px 10px; /* Add padding for the button */
   font-size: 14px; /* Adjust font size */
   background-color: #000; /* Set button background color */
   color: white; /* Set button text color */
