@@ -309,7 +309,7 @@
   margin-left: 20px; /* Match the grid's padding */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
-  font-size: 22px; /* Optional: Adjust the font size */
+  font-size: 20px; /* Optional: Adjust the font size */
   margin-top: 40px; /* Add vertical spacing above the title */
   margin-bottom: 20px; /* Add spacing below the title */
   padding-left: 20px; /* Ensure alignment with grid text */
@@ -319,6 +319,9 @@
 
 .committees p {
   margin-left: 20px; /* Match the grid's padding */
+  max-width: 1000px; /* Optional: Match the grid's max-width */
+  text-align: left; /* Align the paragraph to the left */
+  padding-left: 20px; /* Ensure alignment with grid text */
   font-family: 'Aleo'; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 18px;
