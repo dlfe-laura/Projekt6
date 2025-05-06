@@ -310,6 +310,7 @@
 }
 
 .committees h1 {
+  text-align: left; /* Center the title */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
   font-size: 28px; /* Adjust the font size */
