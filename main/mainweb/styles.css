@@ -304,55 +304,59 @@
   flex: 1 0 70%; /* Ensure each image takes up 100% of the carousel's width */
 }
 
-.committees h1{
-  text-align: left; /* Align the title to the left */
-  margin-left: 20px; /* Match the grid's padding */
+.committees {
+  text-align: center; /* Center all content inside the committees section */
+  margin: 40px auto; /* Add vertical spacing and center the section */
+  max-width: 1000px; /* Limit the width of the section */
+}
+
+.committees h1 {
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
-  font-size: 20px; /* Optional: Adjust the font size */
-  margin-top: 40px; /* Add vertical spacing above the title */
+  font-size: 28px; /* Adjust the font size */
   margin-bottom: 20px; /* Add spacing below the title */
-  padding-left: 20px; /* Ensure alignment with grid text */
-  max-width: 1000px; /* Optional: Match the grid's max-width */
-  margin: 40px auto 20px; /* Center the title horizontally */
 }
 
 .committees p {
-  margin-left: 20px; /* Match the grid's padding */
-  max-width: 1000px; /* Optional: Match the grid's max-width */
-  text-align: left; /* Align the paragraph to the left */
-  padding-left: 20px; /* Ensure alignment with grid text */
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
-  font-size: 18px;
-  color: #555;
-  margin-top: 10px; /* Add spacing above the paragraph */
-  margin-bottom: 20px; /* Add spacing below the paragraph */
+  font-size: 16px; /* Adjust font size */
+  color: #555; /* Set text color */
+  text-align: center; /* Center the paragraph text */
+  margin: 20px auto; /* Add spacing above and below the paragraph */
+  max-width: 800px; /* Limit the width of the paragraph */
 }
 
 .committees a {
-  text-align: center; /* Center the text */
-  display: inline-block; /* Make the link a block element */
+  display: inline-block; /* Ensure the link behaves like a block element */
+  text-align: center; /* Center the text inside the link */
   padding: 10px 20px; /* Add padding for clickable area */
   font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
   font-weight: 600; /* SemiBold */
   text-decoration: none; /* Remove underline from links */
-  color: #000; /* Set link color */
-  margin-bottom: 10px; /* Add spacing below the link */
+  color: #fff; /* Set link text color */
+  background-color: #000; /* Set link background color */
+  border-radius: 5px; /* Add rounded corners */
+  margin-top: 20px; /* Add spacing above the link */
+}
+
+.committees a:hover {
+  background-color: #444; /* Darker background on hover */
 }
 
 .committees button {
-  padding: 10px 20px;
-  font-size: 14px;
-  background-color: #000000;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 10px 20px; /* Add padding for the button */
+  font-size: 14px; /* Adjust font size */
+  background-color: #000; /* Set button background color */
+  color: white; /* Set button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top: 20px; /* Add spacing above the button */
 }
 
 .committees button:hover {
-  background-color: #444; /* Darker on hover */
+  background-color: #444; /* Darker background on hover */
 }
 
 .grid {
@@ -370,6 +374,7 @@
   font-weight: 600; /* SemiBold */
   font-size: 18px;
   margin-bottom: 5px;
+  text-align: left; /* Align the title to the left */
 }
 
 .grid p {
@@ -377,6 +382,8 @@
   font-weight: 400; /* Regular */
   font-size: 14px;
   color: #555;
+  text-align: left; /* Align the paragraph text to the left */
+  margin: 0; /* Remove extra margins */
 }
 
 /* About us */
