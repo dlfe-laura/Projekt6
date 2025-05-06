@@ -371,24 +371,6 @@
   margin: 0; /* Remove extra margins */
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Two columns of equal width */
-  gap: 30px; /* Add spacing between rows and columns */
-  max-width: 1000px; /* Optional: Limit the grid width */
-  margin: 0 auto; /* Center the grid horizontally */
-  padding: 0 20px; /* Add padding to the left and right */
-  margin-bottom: 40px; /* Add spacing below the grid */
-}
-
-.grid2 h2 {
-  font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
-  font-weight: 600; /* SemiBold */
-  font-size: 18px;
-  margin-bottom: 5px;
-  text-align: left; /* Align the title to the left */
-}
-
 /* About us */
 .main-content {
   max-width: 900px;
