@@ -90,7 +90,7 @@
 
 /* Hamburger Menu */
 .hamburger {
-  display: none;
+  display: none; /* Hide the hamburger menu by default */
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
@@ -138,11 +138,10 @@
     background-color: #f0f0f0; /* Change background color on hover */
     color: #333; /* Keep text color consistent */
   }
-}
-
   .hamburger {
     display: flex; /* Show the hamburger menu */
   }
+}
   
 
   /* Hero Section */
