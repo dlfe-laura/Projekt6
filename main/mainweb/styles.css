@@ -112,7 +112,7 @@
     flex-direction: column; /* Stack the links vertically */
     position: absolute;
     top: 100%; /* Position below the header */
-    right: 0;
+    left: 50%; /* Center the dropdown */
     background: #fff; /* Background color for the dropdown */
     width: 150px; /* Set the width of the dropdown */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
@@ -144,9 +144,9 @@
 
   .nav-links a {
     padding: 10px 20px; /* Add more padding for touch-friendly links */
-    text-align: center; /* Align text to the left */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    text-align: center; /* Align text to the center */
     color: #333; /* Default text color */
+    transition: color 0.3s ease; /* Smooth text color transition */
   }
 
   .nav-links a:hover {
