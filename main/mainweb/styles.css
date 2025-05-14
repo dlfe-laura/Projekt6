@@ -66,26 +66,28 @@
   transition: color 0.3s ease-out; /* Smooth transition for text color */
 }
 
-.nav-links li a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #cd1e1e; /* Red background color */
-  transform: scaleX(0); /* Start with the background collapsed */
-  transform-origin: left; /* Expand from the left */
-  transition: transform 0.3s ease-out; /* Smooth transition for background expansion */
-  z-index: -1; /* Ensure background stays behind the text */
-}
+@media (min-width: 625px) {
+  .nav-links li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cd1e1e; /* Red background color */
+    transform: scaleX(0); /* Start with the background collapsed */
+    transform-origin: left; /* Expand from the left */
+    transition: transform 0.3s ease-out; /* Smooth transition for background expansion */
+    z-index: -1; /* Ensure background stays behind the text */
+  }
 
-.nav-links li a:hover::before {
-  transform: scaleX(1); /* Expand the background on hover */
-}
+  .nav-links li a:hover::before {
+    transform: scaleX(1); /* Expand the background on hover */
+  }
 
-.nav-links li a:hover {
-  color: #fff; /* Change text color to white on hover */
+  .nav-links li a:hover {
+    color: #fff; /* Change text color to white on hover */
+  }
 }
 
 /* Hamburger Menu */
@@ -119,6 +121,18 @@
     opacity: 0; /* Start hidden */
     transform: translateY(-10px); /* Start slightly above */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth fade and slide */
+  }
+
+  .nav-links li a {
+    transition: none; /* Disable text color transition */
+  }
+
+  .nav-links li a::before {
+    content: none; /* Remove the pseudo-element */
+  }
+
+  .nav-links li a:hover {
+    color: #333; /* Keep the default text color */
   }
 
   .nav-links.active {
