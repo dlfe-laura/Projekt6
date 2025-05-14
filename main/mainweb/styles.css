@@ -387,7 +387,7 @@
   font-weight: 600; /* SemiBold */
   font-size: 18px;
   margin-bottom: 5px;
-  text-align: left; /* Align the title to the left */
+  text-align: center; /* Align the title to the left */
 }
 
 .grid.grid-4 p {
