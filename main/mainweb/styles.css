@@ -30,7 +30,7 @@
 @media (max-width: 624px) {
   .logo img {
     width: 120px; /* Keep the logo size fixed even on smaller screens */
-  }
+    }
   }
   
   .header .logo {
@@ -41,12 +41,14 @@
 /* Default Navigation Menu */
 .nav {
   position: relative;
+  white-space: nowrap; /* Prevent the items from wrapping to the next line */
 }
 
 .nav-links {
   display: flex;
   gap: 20px;
   list-style: none;
+  overflow: hidden; /* Prevent overflowing content */
 }
 
 .nav-links li a {
@@ -55,6 +57,7 @@
   font-family: 'League Spartan', sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  white-space: nowrap; /* Prevent individual links from wrapping */
 }
 
 /* Hamburger Menu */
@@ -89,6 +92,7 @@
 
   .nav-links.active {
     display: flex; /* Show the navigation links when active */
+    flex-direction: column; /* Stack the links vertically */
   }
 
   .hamburger {
