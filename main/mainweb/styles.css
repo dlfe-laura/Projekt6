@@ -146,11 +146,12 @@
     padding: 10px 20px; /* Add more padding for touch-friendly links */
     text-align: center; /* Align text to the left */
     transition: background-color 0.3s ease; /* Smooth background color transition */
+    color: #333; /* Default text color */
   }
 
   .nav-links a:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
-    color: #333; /* Keep text color consistent */
+    background: none;  
+    color: #555; /* Change text color on hover */
   }
   .hamburger {
     display: flex; /* Show the hamburger menu */
