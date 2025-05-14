@@ -22,9 +22,15 @@
   }
 
   .logo img {
-    width: 10%; 
-    height: auto; /* Maintain aspect ratio */
-    max-width: none; /* Prevent the logo from shrinking */
+  width: 120px; /* Set a fixed width for the logo */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: none; /* Prevent the logo from shrinking */
+  }
+
+@media (max-width: 624px) {
+  .logo img {
+    width: 120px; /* Keep the logo size fixed even on smaller screens */
+  }
   }
   
   .header .logo {
