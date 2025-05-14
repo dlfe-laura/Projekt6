@@ -24,6 +24,7 @@
   .logo img {
     width: 10%; 
     height: auto; /* Maintain aspect ratio */
+    max-width: none; /* Prevent the logo from shrinking */
   }
   
   .header .logo {
