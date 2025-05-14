@@ -32,48 +32,63 @@
     font-size: 18px;
   }
 
-/* Navigation Menu */
-  .nav {
-    display: flex; /* Use flexbox to align links horizontally */
-    gap: 20px; /* Add spacing between the links */
-  }
+/* Default Navigation Menu */
+.nav {
+  position: relative;
+}
 
-  .nav a {
-    position: relative;
-    display: inline-block; /* Make the link a block element */
-    text-decoration: none; /* Remove underline from links */
-    color: #333; /* Set link color */
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 600; /* SemiBold */
-    font-size: 1rem; /* Set font size */
-    padding: 5px 10px; /* Add padding for clickable area */
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
-    overflow: hidden; /* Ensure the pseudo-element stays within the link */
-    z-index: 1;
-    transition: color 0.3s ease-out; /* Smooth transition for text color */
-  }
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
 
-  .nav a::before {
-    content: "";
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  border-radius: 2px;
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 624px) {
+  .nav-links {
+    display: none; /* Hide the navigation links by default */
+    flex-direction: column; /* Stack the links vertically */
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #cd1e1e; /* Black background color */
-    transform: scaleX(0); /* Start with the background collapsed */
-    transform-origin: left;
-    transition: transform 0.3s ease-out; /* Smooth transition for background expansion */
-    z-index: -1; /* Ensure background stays behind the text */
+    top: 100%; /* Position below the header */
+    right: 0;
+    background: #fff; /* Background color for the dropdown */
+    width: 200px; /* Set the width of the dropdown */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
+    padding: 10px 0;
+    z-index: 10; /* Ensure it appears above other elements */
   }
 
-  .nav a:hover::before {
-    transform: scaleX(1);
+  .nav-links.active {
+    display: flex; /* Show the navigation links when active */
   }
 
-  .nav a:hover {
-    color: #fff;
+  .hamburger {
+    display: flex; /* Show the hamburger menu */
   }
+}
   
 
   /* Hero Section */
