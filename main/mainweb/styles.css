@@ -114,7 +114,7 @@
     top: 100%; /* Position below the header */
     right: 0;
     background: #fff; /* Background color for the dropdown */
-    width: 200px; /* Set the width of the dropdown */
+    width: 150px; /* Set the width of the dropdown */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
     padding: 10px 0;
     z-index: 10; /* Ensure it appears above other elements */
@@ -144,7 +144,7 @@
 
   .nav-links a {
     padding: 10px 20px; /* Add more padding for touch-friendly links */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     transition: background-color 0.3s ease; /* Smooth background color transition */
   }
 
