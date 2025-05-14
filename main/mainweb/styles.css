@@ -112,9 +112,10 @@
     flex-direction: column; /* Stack the links vertically */
     position: absolute;
     top: 100%; /* Position below the header */
-    left: 0%; /* Center the dropdown */
+    left: 50%; /* Center the dropdown */
+    transform: translateX(-50%, -10%); /* Center the dropdown and move it slightly up */
     background: #fff; /* Background color for the dropdown */
-    width: 150px; /* Set the width of the dropdown */
+    width: auto; /* Set the width of the dropdown */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
     padding: 10px 0;
     z-index: 10; /* Ensure it appears above other elements */
@@ -139,7 +140,7 @@
     display: flex; /* Show the navigation links when active */
     flex-direction: column; /* Stack the links vertically */
     opacity: 1; /* Fade in */
-    transform: translateY(0); /* Slide into place */
+    transform: translate(-50%, 0); /* Slide into place */
   }
 
   .nav-links a {
