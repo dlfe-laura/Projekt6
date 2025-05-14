@@ -121,12 +121,24 @@
   .nav-links.active {
     display: flex; /* Show the navigation links when active */
     flex-direction: column; /* Stack the links vertically */
+      transform: translateY(0); /* Slide into place */
   }
+
+  .nav-links a {
+    padding: 10px 20px; /* Add more padding for touch-friendly links */
+    text-align: left; /* Align text to the left */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+
+  .nav-links a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #333; /* Keep text color consistent */
+  }
+}
 
   .hamburger {
     display: flex; /* Show the hamburger menu */
   }
-}
   
 
   /* Hero Section */
