@@ -204,6 +204,8 @@
   
   .who-we-are button:hover {
     background: #444;
+    transform: scale(1.07); /* Slightly increase the size */
+    transition: transform 0.2s cubic-bezier(.4,2,.6,1), background 0.3s;
   }
   
   /* Join Us Section Mainpage*/
@@ -253,6 +255,8 @@
   
   .join-text button:hover {
     background: #444;
+    transform: scale(1.07); /* Slightly increase the size */
+    transition: transform 0.2s cubic-bezier(.4,2,.6,1), background 0.3s;
   }
   
   .join-image {
