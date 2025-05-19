@@ -94,6 +94,7 @@
 .hamburger {
   display: none; /* Hide the hamburger menu by default */
   flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
   gap: 5px;
 }
@@ -103,6 +104,10 @@
   height: 3px;
   background: #333;
   border-radius: 2px;
+}
+
+.menu-overlay {
+  display: none;
 }
 
 /* Responsive: hide nav-links and show hamburger */
