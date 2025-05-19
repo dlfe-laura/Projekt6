@@ -105,57 +105,50 @@
   border-radius: 2px;
 }
 
-/* Responsive Styles for Smaller Screens */
-@media (max-width: 624px) {
+/* Responsive: hide nav-links and show hamburger */
+@media (max-width: 768px) {
   .nav-links {
-    display: none; /* Hide the navigation links by default */
-    flex-direction: column; /* Stack the links vertically */
-    position: absolute;
-    top: 100%; /* Position below the header */
-    left: 50%; /* Center the dropdown */
-    transform: translateX(-50%, -10%); /* Center the dropdown and move it slightly up */
-    background: #fff; /* Background color for the dropdown */
-    width: auto; /* Set the width of the dropdown */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
-    padding: 10px 0;
-    z-index: 10; /* Ensure it appears above other elements */
-    opacity: 0; /* Start hidden */
-    transform: translateY(-10px); /* Start slightly above */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth fade and slide */
+    display: none;
   }
 
-  .nav-links li a {
-    transition: none; /* Disable text color transition */
-  }
-
-  .nav-links li a::before {
-    content: none; /* Remove the pseudo-element */
-  }
-
-  .nav-links li a:hover {
-    color: #333; /* Keep the default text color */
-  }
-
-  .nav-links.active {
-    display: flex; /* Show the navigation links when active */
-    flex-direction: column; /* Stack the links vertically */
-    opacity: 1; /* Fade in */
-    transform: translate(-50%, 0); /* Slide into place */
-  }
-
-  .nav-links a {
-    padding: 10px 20px; /* Add more padding for touch-friendly links */
-    text-align: center; /* Align text to the center */
-    color: #333; /* Default text color */
-    transition: color 0.3s ease; /* Smooth text color transition */
-  }
-
-  .nav-links a:hover {
-    background: none;  
-    color: #555; /* Change text color on hover */
-  }
   .hamburger {
-    display: flex; /* Show the hamburger menu */
+    display: flex;
+  }
+
+  .menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .menu-overlay.show {
+    display: flex;
+  }
+
+  .menu-overlay ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  .menu-overlay li {
+    margin: 20px 0;
+  }
+
+  .menu-overlay a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
   }
 }
   
