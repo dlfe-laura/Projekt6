@@ -132,7 +132,7 @@
     align-items: center;
     justify-content: flex-start;
     transition: opacity 0.3s ease-in-out;
-    padding: 20px 0; /* Optional: add some padding */
+    padding: 15px 0; /* Optional: add some padding */
   }
 
   .menu-overlay.show {
