@@ -150,15 +150,16 @@
   }
 
   .menu-overlay a {
+    display: inline-block; /* Align the text and pseudo-element */
     text-decoration: none;
     font-size: 20px;
     color: #333;
     font-weight: bold;
+    transition: transform 0.2s cubic-bezier(.4,2,.6,1); /* Ensure transition is on the base state */
   }
 
   .menu-overlay a:hover {
     transform: scale(1.07); /* Slightly increase the size */
-    transition: transform 0.2s cubic-bezier(.4,2,.6,1);
   }
 }
 
