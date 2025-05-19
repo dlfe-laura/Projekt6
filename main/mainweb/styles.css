@@ -132,7 +132,7 @@
     align-items: center;
     justify-content: flex-start;
     transition: opacity 0.3s ease-in-out;
-    padding: 15px 0; /* Optional: add some padding */
+    padding: 10px 0; /* Optional: add some padding */
     backdrop-filter: blur(8px); /* Optional: add a blur effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
   }
