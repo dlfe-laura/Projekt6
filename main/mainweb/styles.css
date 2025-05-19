@@ -126,7 +126,7 @@
     top: 160px; /* Set this to your header's height */
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: rgba(255, 255, 255, 0.52);
     z-index: 1000;
     flex-direction: column;
     align-items: center;
