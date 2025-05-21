@@ -642,9 +642,20 @@
   text-decoration: underline;
 }
 
-.contact-map {
+/*.contact-map {
   flex: 1;
   min-width: 300px;
+}*/
+
+@media (max-width: 600px) {
+  .contact-map {
+    width: 100%;
+    min-width: 0;
+    max-width: 100vw;
+    height: 250px; /* or adjust as needed for your design */
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 /*Resources*/ 
