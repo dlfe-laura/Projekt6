@@ -710,5 +710,6 @@
   font-size: 14px;
   color: #555;
   margin: 0 15px;
+  text-align: justify; /* Justify the text */
 }
 
