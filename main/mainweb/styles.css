@@ -413,7 +413,7 @@
 
 .carousel-track {
   display: flex;
-  animation: scroll-carousel 30s linear infinite; /* Infinite scrolling effect */
+  animation: scroll-carousel 15s linear infinite; /* Infinite scrolling effect */
   width: 100%; /* Ensure the track spans the full width of the carousel */
 }
 
@@ -427,10 +427,10 @@
 /* Keyframes for continuous scroll */
 @keyframes scroll-carousel {
   0% {
-    transform: translateX(0);
+    transform: translateX(0); /* Start at the beginning */
   }
-  100% {
-    transform: translateX(-50%);
+  100% { 
+    transform: translateX(-50%); /* Move to the left by 50% of the track width */
   }
 }
 
