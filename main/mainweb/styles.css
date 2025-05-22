@@ -316,6 +316,9 @@
     margin: 0 auto;
     display: block;
   }
+  .join-text p {
+    text-align: justify;
+  }
 }
   
   /* Footer */
