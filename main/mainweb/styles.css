@@ -280,6 +280,7 @@
   .join-content {
     flex-direction: column;
     align-items: center;
+  }
   .join-image img {
     width: 100%;
     max-width: 400px; /* or any max width you prefer */
@@ -287,7 +288,6 @@
     display: block;
     margin: 0 auto;
     }
-  }
   .join-text {
     width: 100%;
     margin-bottom: 20px;
@@ -298,6 +298,7 @@
     justify-content: center;
   }
 }
+
   
   /* Footer */
   .footer {
