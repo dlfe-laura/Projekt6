@@ -277,12 +277,12 @@
   }
 
   /* Default: show desktop image, hide mobile image */
-.join-image-mobile {
+  .join-image-mobile {
   display: none;
-}
-.join-image-desktop {
+  }
+  .join-image-desktop {
   display: flex;
-}
+  }
 
  /* On small screens: show mobile image, hide desktop image */
 @media (max-width: 868px) {
@@ -311,6 +311,12 @@
     justify-content: center;
     width: 100%;
     margin-top: 10px;
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  .join-text a:visited {
+    text-decoration: none !important;
+    color: inherit !important;
   }
   .join-text button {
     margin: 0 auto;
