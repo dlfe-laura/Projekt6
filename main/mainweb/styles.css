@@ -364,7 +364,7 @@
 
   .social-icons {
     display: flex; /* Align icons horizontally */
-    gap: 20px; /* Add spacing between the icons */
+    gap: 10px; /* Add spacing between the icons */
     align-items: center; /* Align icons vertically with text */
     margin-left: 0; /* Align with the starting point of the h4 */
 }
@@ -392,10 +392,8 @@
 
   .footer-column.logos {
     display: flex;
-    justify-content: flex-start; /* Align logos to the left */
     align-items: center; /* Center the logos vertically */
     gap: 20px; /* Add spacing between the logos */
-    margin-left: 100 px; /* Move the logos further to the left */
   }
   
   .footer-logo {
