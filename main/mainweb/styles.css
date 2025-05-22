@@ -280,6 +280,13 @@
   .join-content {
     flex-direction: column;
     align-items: center;
+  .join-image img {
+    width: 100%;
+    max-width: 400px; /* or any max width you prefer */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
   }
   .join-text {
     width: 100%;
@@ -289,13 +296,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-  .join-image img {
-    width: 100%;
-    max-width: 400px; /* or any max width you prefer */
-    height: auto;
-    display: block;
-    margin: 0 auto;
   }
 }
   
