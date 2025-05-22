@@ -664,9 +664,13 @@
     width: 100%;
     min-width: 0;
     max-width: 100vw;
-    height: 150px; /* or adjust as needed for your design */
-    margin: 0 auto;
+    height: 120px;           /* Smaller height for phones */
+    margin: 0 auto 20px auto; /* Add bottom margin for separation */
     display: block;
+  }
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
