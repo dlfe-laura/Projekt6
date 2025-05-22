@@ -306,6 +306,16 @@
   .join-image-desktop {
     display: none;
   }
+  .join-text a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .join-text button {
+    margin: 0 auto;
+    display: block;
+  }
 }
   
   /* Footer */
