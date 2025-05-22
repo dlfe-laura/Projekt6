@@ -598,6 +598,21 @@
   margin: 0; /* Remove extra margins */
 }
 
+@media (max-width: 600px) {
+  .grid.grid-4 {
+    grid-template-columns: 1fr 1fr; /* 2 columns on small screens */
+    gap: 14px; /* Reduce spacing between items */
+    padding: 0 6px; /* Less horizontal padding */
+  }
+  .grid.grid-4 h2 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .grid.grid-4 p {
+    font-size: 12px;
+  }
+}
+
 /* About us */
 .main-content {
   max-width: 900px;
