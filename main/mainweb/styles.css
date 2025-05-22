@@ -276,26 +276,28 @@
     object-fit: cover;
   }
 
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .join-content {
     flex-direction: column;
     align-items: center;
   }
-  .join-image img {
-    width: 100%;
-    max-width: 400px; /* or any max width you prefer */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    }
-  .join-text {
-    width: 100%;
-    margin-bottom: 20px;
-  }
   .join-image {
+    order: -1; /* Show image first on small screens */
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .join-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .join-text {
+    width: 100%;
+    margin-bottom: 20px;
+    order: 0; /* Ensure text comes after image */
   }
 }
 
