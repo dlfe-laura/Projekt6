@@ -536,7 +536,7 @@
   transition: transform 0.2s cubic-bezier(.4,2,.6,1), background 0.3s;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1200px) {
   .committees {
     margin: 24px 10px;    /* Reduce top/bottom and left/right margins */
     padding: 0 8px;      /* Add a little padding so content doesn't touch the edges */
