@@ -472,6 +472,8 @@
 
 .committees button:hover {
   background-color: #444; /* Darker background on hover */
+  transform: scale(1.07); /* Slightly increase the size */
+  transition: transform 0.2s cubic-bezier(.4,2,.6,1), background 0.3s;
 }
 
 .grid {
