@@ -284,7 +284,6 @@
   display: flex;
 }
 
-
  /* On small screens: show mobile image, hide desktop image */
 @media (max-width: 868px) {
   .join-content {
@@ -295,7 +294,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
   .join-image-mobile img {
     width: 100%;
