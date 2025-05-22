@@ -361,18 +361,27 @@
   }
   .footer-column {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
   }
   .footer-column:last-child {
+    margin-bottom: 0;
+  }
+  .footer-column h4,
+  .footer-column p,
+  .footer-column a {
+    margin-bottom: 10px; /* Reduce margin for all child elements */
+  }
+  .footer-column p:last-child,
+  .footer-column a:last-child {
     margin-bottom: 0;
   }
   .footer-column.logos {
     justify-content: center;
     margin-left: 0;
-    gap: 20px;
+    gap: 12px;
   }
   .social-icons {
-    justify-content: center; /* Center the social icons horizontally */
+    justify-content: center;
     margin-left: 0;
   }
 }
@@ -580,6 +589,7 @@
   font-family: 'Aleo'; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   color: #333;
+  text-align: justify; /* Justify the text */
 }
 
 .history-image {
