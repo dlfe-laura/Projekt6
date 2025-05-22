@@ -413,7 +413,7 @@
 
 .carousel-track {
   display: flex;
-  animation: scroll-carousel 15s linear infinite; /* Infinite scrolling effect */
+  animation: scroll-carousel 35s linear infinite; /* Infinite scrolling effect */
   width: max-content; /* Ensure the track spans the full width of the carousel */
 }
 
