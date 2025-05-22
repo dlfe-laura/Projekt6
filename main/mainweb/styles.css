@@ -515,6 +515,14 @@
   transition: transform 0.2s cubic-bezier(.4,2,.6,1), background 0.3s;
 }
 
+@media (max-width: 600px) {
+  .committees {
+    margin: 24px 8px;    /* Reduce top/bottom and left/right margins */
+    padding: 0 8px;      /* Add a little padding so content doesn't touch the edges */
+    max-width: 100%;     /* Ensure it doesn't overflow */
+  }
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
