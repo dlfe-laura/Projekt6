@@ -517,7 +517,7 @@
 
 @media (max-width: 600px) {
   .committees {
-    margin: 24px 8px;    /* Reduce top/bottom and left/right margins */
+    margin: 24px 10px;    /* Reduce top/bottom and left/right margins */
     padding: 0 8px;      /* Add a little padding so content doesn't touch the edges */
     max-width: 100%;     /* Ensure it doesn't overflow */
   }
