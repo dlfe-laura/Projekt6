@@ -726,10 +726,10 @@
   text-decoration: underline;
 }
 
-/*.contact-map {
+.contact-map {
   flex: 1;
   min-width: 300px;
-}*/
+}
 
 @media (max-width: 600px) {
   .contact-map {
