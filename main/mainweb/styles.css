@@ -418,11 +418,11 @@
   }
 
   .footer-column4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px; /* space between logos */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* space between logos */
   }
 
   .footer-column4.logos {
