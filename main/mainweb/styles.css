@@ -422,7 +422,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* space between logos */
+    gap: 40px; /* space between logos */
   }
 
   .footer-column4.logos {
