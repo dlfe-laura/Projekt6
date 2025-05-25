@@ -424,12 +424,6 @@
     justify-content: center;
     gap: 40px; /* space between logos */
   }
-
-  .footer-column4.logos {
-    display: flex;
-    align-items: center; /* Center the logos vertically */
-    gap: 30px; /* Add spacing between the logos */
-  }
   
   .footer-logo {
     max-width: 100px; /* Set a maximum width for the logos */
