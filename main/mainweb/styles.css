@@ -374,7 +374,9 @@
     font-size: 16px;
   }
 
-  .footer-column2 a {
+  .footer-column2 a,
+  .footer-column2 a:visited,
+  .footer-column2 a:active {
     font-family: 'Aleo'; /* Apply Aleo font */
     font-weight: 400; /* Regular */
     text-decoration: none;
