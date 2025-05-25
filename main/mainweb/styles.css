@@ -329,34 +329,59 @@
   
   /* Footer */
   .footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px;
-    border-top: 1px solid #ddd;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; /* Space out the columns */
+    padding: 40px; /* Add padding around the footer */
+    border-top: 1px solid #ddd; 
     background-color: #fff;
   }
-  
-  .footer-column {
-    flex: 1 1 200px;
-    margin-bottom: 20px;
+
+  .footer-column1 {
+    flex: 1 1 200px; /* Allow the column to grow and shrink, with a base width of 200px */
+    margin-bottom: 20px; /* Add spacing below each column */
   }
-  
-  .footer-column h4 {
+
+  .footer-column1 h4 {
     margin-bottom: 10px;
     font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
     font-weight: 600; /* SemiBold */
     font-size: 16px;
   }
 
-  .footer-column a {
+  .footer-column1 a {
     font-family: 'Aleo'; /* Apply Aleo font */
     font-weight: 400; /* Regular */
     text-decoration: none;
     color: #333;
   }
 
-  .footer-column p {
+  .footer-column1 p {
+    font-family: 'Aleo'; /* Apply Aleo font */
+    font-weight: 400; /* Regular */
+    color: #555;
+  }
+
+  .footer-column2 {
+    flex: 1 1 200px; /* Allow the first column to grow and shrink */
+    margin-bottom: 20px;
+  }
+  
+  .footer-column2 h4 {
+    margin-bottom: 10px;
+    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
+    font-weight: 600; /* SemiBold */
+    font-size: 16px;
+  }
+
+  .footer-column2 a {
+    font-family: 'Aleo'; /* Apply Aleo font */
+    font-weight: 400; /* Regular */
+    text-decoration: none;
+    color: #333;
+  }
+
+  .footer-column2 p {
     font-family: 'Aleo'; /* Apply Aleo font */
     font-weight: 400; /* Regular */
     color: #555;
@@ -390,7 +415,7 @@
     filter: brightness(0.8); /* Darken the icon on hover */
   }
 
-  .footer-column.logos {
+  .footer-column4.logos {
     display: flex;
     align-items: center; /* Center the logos vertically */
     gap: 20px; /* Add spacing between the logos */
