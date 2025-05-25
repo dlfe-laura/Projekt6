@@ -417,6 +417,14 @@
     filter: brightness(0.8); /* Darken the icon on hover */
   }
 
+  .footer-column4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between logos */
+  }
+
   .footer-column4.logos {
     display: flex;
     align-items: center; /* Center the logos vertically */
