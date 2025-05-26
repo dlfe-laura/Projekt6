@@ -821,22 +821,32 @@
 @media (max-width: 868px) {
   .footer {
     flex-direction: column !important;
-    background-color: pink !important;
+    align-items: center !important;
+    text-align: center !important;
     gap: 20px !important;
+  }
+
+  .footer > div {
+    width: 100% !important;
+    max-width: 400px !important;
   }
 
   .footer-column1,
   .footer-column2,
   .footer-column4 {
     text-align: center !important;
-    width: 100% !important;
+    align-items: center !important;
+    margin: 0 auto !important;
   }
 
   .social-icons {
     justify-content: center !important;
+    gap: 12px !important;
   }
 
   .footer-logo {
-    max-width: 80px;
+    max-width: 80px !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
 }
