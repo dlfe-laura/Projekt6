@@ -438,7 +438,17 @@
     text-align: center;
     padding: 16px 10px;
   }
-  .footer-column1,
+
+  .footer-column1 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* ✅ Ensure it's vertically centered like others */
+  text-align: center;
+}
   .footer-column2,
   .footer-column4 {
     width: 100%;
@@ -467,7 +477,7 @@
   }
   .social-icons {
     justify-content: center !important; /* Center on small screens */
-    gap: 8px;
+    margin: 0 0 10px 0; /* Was margin: 8px 0; which can push it off */
     margin-bottom: 10px;
     width: 100%;
     display: flex;
