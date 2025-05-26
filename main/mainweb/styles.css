@@ -467,8 +467,8 @@
 }
 
 .carousel img {
-  width: 425px;      /* Fixed width for each image */
   height: 400px;
+  width: auto;      /* Fixed width for each image */
   object-fit: cover;
   flex-shrink: 0;    /* Prevent shrinking */
 }
