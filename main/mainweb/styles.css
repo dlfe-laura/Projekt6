@@ -332,7 +332,7 @@
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; /* Space out the columns */
-    padding: 40px; /* Add padding around the footer */
+    padding: 20px 10px; /* Add padding around the footer */
     border-top: 1px solid #ddd; 
     background-color: #fff;
   }
@@ -449,10 +449,11 @@
   justify-content: center; /* ✅ Ensure it's vertically centered like others */
   text-align: center;
 }
+  .footer-column1,
   .footer-column2,
   .footer-column4 {
     width: 100%;
-    margin-bottom: 10px; /* Small vertical space */
+    margin-bottom: 6px; /* Small vertical space */
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -473,7 +474,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .social-icons {
     justify-content: center !important; /* Center on small screens */
