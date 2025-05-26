@@ -329,7 +329,6 @@
   
   /* Footer */
   .footer {
-    background-color: green !important;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; /* Space out the columns */
