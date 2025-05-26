@@ -467,8 +467,8 @@
 }
 
 .carousel img {
-  height: 400px;
-  width: auto;      /* Fixed width for each image */
+  width: 400px;      /* Fixed width for each image  (it used to be 400px)*/
+  height: 400px; /*RECHECK THIS*/
   object-fit: cover;
   flex-shrink: 0;    /* Prevent shrinking */
 }
@@ -479,7 +479,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-2800px); /* Scroll the width of the original set */
+    transform: translateX(-3200px); /* Scroll the width of the original set (must match the total of all pics*/
   }
 }
 
