@@ -341,8 +341,7 @@
 
 /* Column 1: Logo + Social */
 .footer-column1 {
-  flex: 1 1 100%;
-  max-width: 100%;
+  flex: 1 1 200px;
   margin-bottom: 20px;
 }
 
