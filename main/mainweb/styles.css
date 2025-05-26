@@ -469,6 +469,7 @@
   .footer-column2 p,
   .footer-column2 a {
     text-align: center; /* Center the text in small screens */
+    justify-content: center; /* Center the text in small screens */
     margin-bottom: 4px;
   }
   .footer-column4 {
