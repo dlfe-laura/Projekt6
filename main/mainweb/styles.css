@@ -882,3 +882,25 @@
   text-align: justify; /* Justify the text */
 }
 
+@media (max-width: 868px) {
+  .footer {
+    flex-direction: column !important;
+    background-color: pink !important;
+    gap: 20px !important;
+  }
+
+  .footer-column1,
+  .footer-column2,
+  .footer-column4 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .social-icons {
+    justify-content: center !important;
+  }
+
+  .footer-logo {
+    max-width: 80px;
+  }
+}
