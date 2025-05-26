@@ -415,7 +415,10 @@
     padding: 32px 16px;
   }
 
-  .social-icons {
+  .social-icons,
+  .footer-column h4,
+  .footer-column a,
+  .footer-column p {
     justify-content: center;
   }
 
@@ -423,7 +426,6 @@
     max-width: 80px;
   }
 }
-
 
   /* Committees */
 .page-title {
