@@ -328,7 +328,7 @@
 }
   
   /* Footer */
-  /* ---------- Base Footer Styles (Desktop) ---------- */
+/* Base footer styles (desktop) */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -339,68 +339,27 @@
   gap: 20px;
 }
 
-/* Column 1: Logo + Social */
-.footer-column1 {
-  flex: 1 1 200px;
-  margin-bottom: 20px;
-}
-
-.footer-column1 h4 {
-  font-family: 'League Spartan', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.footer-column1 a {
-  font-family: 'Aleo', serif;
-  font-weight: 400;
-  text-decoration: none;
-  color: #333;
-}
-
-.footer-column1 p {
-  font-family: 'Aleo', serif;
-  font-weight: 400;
-  color: #555;
-}
-
-/* Column 2: Contact / Address */
-.footer-column2 {
-  flex: 1 1 200px;
-  margin-bottom: 20px;
-}
-
-.footer-column2 h4 {
-  font-family: 'League Spartan', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.footer-column2 a,
-.footer-column2 a:visited,
-.footer-column2 a:active {
-  font-family: 'Aleo', serif;
-  font-weight: 400;
-  text-decoration: none;
-  color: #333;
-}
-
-.footer-column2 p {
-  font-family: 'Aleo', serif;
-  font-weight: 400;
-  color: #555;
-}
-
-/* Column 4: Logos */
+.footer-column1,
+.footer-column2,
 .footer-column4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
   flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer a,
+.footer p {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  color: #333;
+  text-decoration: none;
+  margin: 2px 0;
 }
 
 .footer-logo {
@@ -409,11 +368,8 @@
   display: block;
 }
 
-/* Social Icons */
 .social-icons {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   gap: 10px;
   margin-top: 8px;
 }
@@ -421,48 +377,52 @@
 .social-icon {
   width: 24px;
   height: 24px;
-  display: inline-block;
-  filter: grayscale(0%);
-  transition: filter 0.2s ease;
+  display: block;
 }
 
-.social-icons a:hover .social-icon {
-  filter: brightness(0.8);
+.footer-column4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
+
 
 @media (max-width: 868px) {
   .footer {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 24px !important;
-    padding: 24px 16px !important;
-  }
-
-  .footer > div {
-    width: 100% !important;
-    max-width: 420px !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 32px 16px;
   }
 
   .footer-column1,
   .footer-column2,
   .footer-column4 {
-    margin: 0 auto !important;
-    text-align: center !important;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .social-icons {
-    justify-content: center !important;
-    gap: 12px !important;
-    margin-top: 8px !important;
+    justify-content: center;
+  }
+
+  .footer-column4 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
   }
 
   .footer-logo {
-    max-width: 80px !important;
-    display: block !important;
-    margin: 0 auto !important;
+    max-width: 80px;
   }
 }
+
 
   /* Committees */
 .page-title {
