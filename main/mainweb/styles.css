@@ -432,59 +432,67 @@
 
   @media (max-width: 868px) {
   .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 16px 10px;
-  }
-
-  .footer-column1 {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* ✅ Ensure it's vertically centered like others */
   text-align: center;
+  padding: 20px 12px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  gap: 16px; /* Control spacing between columns */
 }
-  .footer-column1,
-  .footer-column2,
-  .footer-column4 {
-    width: 100%;
-    margin-bottom: 6px; /* Small vertical space */
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer-column1:last-child,
-  .footer-column2:last-child,
-  .footer-column4:last-child {
-    margin-bottom: 0;
-  }
-  .footer-column1 h4,
-  .footer-column2 h4,
-  .footer-column2 p,
-  .footer-column2 a {
-    text-align: center; /* Center the text in small screens */
-    justify-content: center; /* Center the text in small screens */
-    margin-bottom: 4px;
-  }
-  .footer-column4 {
-    flex-direction: row;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 0px;
-  }
-  .social-icons {
-    justify-content: center !important; /* Center on small screens */
-    margin: 0 0 10px 0; /* Was margin: 8px 0; which can push it off */
-    margin-bottom: 10px;
-    width: 100%;
-    display: flex;
-  }
+
+.footer > div {
+  width: 100%;
+  max-width: 400px; /* Optional: constrain width */
+}
+
+/* Column Titles */
+.footer h4 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Paragraphs and Links */
+.footer p,
+.footer a {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  color: #333;
+  margin: 2px 0;
+  text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* Logo Section */
+.footer-column4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.footer-logo {
+  max-width: 80px;
+  height: auto;
+  display: block;
+}
 }
 
   /* Committees */
