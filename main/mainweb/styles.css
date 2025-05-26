@@ -328,109 +328,141 @@
 }
   
   /* Footer */
+  /* ---------- Base Footer Styles (Desktop) ---------- */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  gap: 20px;
+}
+
+/* Column 1: Logo + Social */
+.footer-column1 {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column1 h4 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column1 a {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-column1 p {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Column 2: Contact / Address */
+.footer-column2 {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column2 h4 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column2 a,
+.footer-column2 a:visited,
+.footer-column2 a:active {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-column2 p {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Column 4: Logos */
+.footer-column4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex: 1 1 200px;
+}
+
+.footer-logo {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  filter: grayscale(0%);
+  transition: filter 0.2s ease;
+}
+
+.social-icons a:hover .social-icon {
+  filter: brightness(0.8);
+}
+
+@media (max-width: 868px) {
   .footer {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; /* Space out the columns */
-    padding: 20px 10px; /* Add padding around the footer */
-    border-top: 1px solid #ddd; 
-    background-color: #fff;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 24px !important;
+    padding: 24px 16px !important;
   }
 
-  .footer-column1 {
-    flex: 1 1 200px; /* Allow the column to grow and shrink, with a base width of 200px */
-    margin-bottom: 20px; /* Add spacing below each column */
+  .footer > div {
+    width: 100% !important;
+    max-width: 420px !important;
   }
 
-  .footer-column1 h4 {
-    margin-bottom: 10px;
-    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
-    font-weight: 600; /* SemiBold */
-    font-size: 16px;
-  }
-
-  .footer-column1 a {
-    font-family: 'Aleo'; /* Apply Aleo font */
-    font-weight: 400; /* Regular */
-    text-decoration: none;
-    color: #333;
-  }
-
-  .footer-column1 p {
-    font-family: 'Aleo'; /* Apply Aleo font */
-    font-weight: 400; /* Regular */
-    color: #555;
-  }
-
-  .footer-column2 {
-    flex: 1 1 200px; /* Allow the first column to grow and shrink */
-    margin-bottom: 20px;
-  }
-  
-  .footer-column2 h4 {
-    margin-bottom: 10px;
-    font-family: 'League Spartan', sans-serif; /* Apply League Spartan font */
-    font-weight: 600; /* SemiBold */
-    font-size: 16px;
-  }
-
-  .footer-column2 a,
-  .footer-column2 a:visited,
-  .footer-column2 a:active {
-    font-family: 'Aleo'; /* Apply Aleo font */
-    font-weight: 400; /* Regular */
-    text-decoration: none;
-    color: #333;
-  }
-
-  .footer-column2 p {
-    font-family: 'Aleo'; /* Apply Aleo font */
-    font-weight: 400; /* Regular */
-    color: #555;
+  .footer-column1,
+  .footer-column2,
+  .footer-column4 {
+    margin: 0 auto !important;
+    text-align: center !important;
   }
 
   .social-icons {
-    display: flex; 
-    flex-direction: row;
-    justify-content: flex-start;  /* Align icons to the left */
-    gap: 10px;
-    margin: 8px 0;
+    justify-content: center !important;
+    gap: 12px !important;
+    margin-top: 8px !important;
   }
 
-  .social-icons a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .social-icons a img {
-    width: 24px; /* Set a fixed width for the icons */
-    height: 24px; /* Set a fixed height for the icons */
-    display: inline-block; /* Ensure the icons align properly with text */
-    margin-right: 5px; /* Add spacing between the icon and the text */
-  }
-  
-  .social-icons a:hover {
-    color: #000;
-    filter: brightness(0.8); /* Darken the icon on hover */
-  }
-
-  .footer-column4 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px; /* space between logos */
-  }
-  
   .footer-logo {
-    max-width: 100px; /* Set a maximum width for the logos */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Ensure proper alignment */
+    max-width: 80px !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
-
-  
+}
 
   /* Committees */
 .page-title {
@@ -816,37 +848,4 @@
   color: #555;
   margin: 0 15px;
   text-align: justify; /* Justify the text */
-}
-
-@media (max-width: 868px) {
-  .footer {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 20px !important;
-  }
-
-  .footer > div {
-    width: 100% !important;
-    max-width: 400px !important;
-  }
-
-  .footer-column1,
-  .footer-column2,
-  .footer-column4 {
-    text-align: center !important;
-    align-items: center !important;
-    margin: 0 auto !important;
-  }
-
-  .social-icons {
-    justify-content: center !important;
-    gap: 12px !important;
-  }
-
-  .footer-logo {
-    max-width: 80px !important;
-    display: block !important;
-    margin: 0 auto !important;
-  }
 }
