@@ -480,7 +480,7 @@
 }
 
 .carousel img.landscape {
-  width: 600px;
+  width: 550px;
   height: 400px;
   object-fit: cover;
 }
