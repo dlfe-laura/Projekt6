@@ -817,7 +817,7 @@
 /* Adjust font size for phone screens */
 @media (max-width: 600px) {
   .resource-card h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
