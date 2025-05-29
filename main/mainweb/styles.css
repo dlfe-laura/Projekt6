@@ -814,6 +814,13 @@
   margin: 15px;
 }
 
+/* Adjust font size for phone screens */
+@media (max-width: 600px) {
+  .resource-card h2 {
+    font-size: 16px;
+  }
+}
+
 .resource-card p {
   font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
