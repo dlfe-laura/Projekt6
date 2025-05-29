@@ -468,9 +468,21 @@
 
 .carousel img {
   width: 400px;      /* Fixed width for each image  (it used to be 400px)*/
-  height: 400px; /*RECHECK THIS*/
+  height: 400px; 
   object-fit: cover;
   flex-shrink: 0;    /* Prevent shrinking */
+}
+
+.carousel img.portrait {
+  width: 400px;   /* or another value for vertical images */
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel img.landscape {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
 }
 
 /* Keyframes for continuous scroll */
@@ -479,7 +491,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-3200px); /* Scroll the width of the original set (must match the total of all pics*/
+    transform: translateX(-3600px); /* Scroll the width of the original set (must match the total of all pics*/
   }
 }
 
