@@ -191,7 +191,7 @@
   }
   
   .who-we-are p {
-    font-family: 'Aleo'; /* Apply Aleo font */
+    font-family: 'Aleo', sans-serif; /* Apply Aleo font */
     font-weight: 400; /* Regular */
     margin-bottom: 30px;
     text-align: justify;
@@ -242,8 +242,7 @@
   }
   
   .join-text p {
-    font-family: 'Aleo'; /* Apply Aleo font */
-    font-weight: 400; /* Regular */
+    font-family: 'Aleo', sans-serif; /* Apply Aleo font */
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -348,14 +347,14 @@
 }
 
 .footer-column a {
-  font-family: 'Aleo', serif;
+  font-family: 'Aleo', sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: #333;
 }
 
 .footer-column p {
-  font-family: 'Aleo', serif;
+  font-family: 'Aleo', sans-serif;
   font-weight: 400;
   color: #555;
 }
@@ -363,7 +362,7 @@
 .footer-column a,
 .footer-column a:visited,
 .footer-column a:active {
-  font-family: 'Aleo', serif;
+  font-family: 'Aleo', sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: #333;
@@ -442,7 +441,7 @@
 }
 
 .intro-text p {
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 20px;
   line-height: 1.6;
@@ -564,7 +563,7 @@
 }
 
 .grid p {
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 14px;
   color: #555;
@@ -587,7 +586,7 @@
   font-weight: 600; /* SemiBold */
   font-size: 18px;
   margin-bottom: 5px;
-  text-align: center; /* Align the title to the left */
+  text-align: center; /* Align the title to the center */
 }
 
 .grid.grid-4 p {
@@ -635,7 +634,7 @@
 
 .about-intro p {
   color: #444;
-  font-family: Aleo; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 16px;
   text-align: justify; /* Justify the text */
@@ -661,7 +660,7 @@
 }
 
 .history-text p {
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   color: #333;
   text-align: justify; /* Justify the text */
@@ -708,7 +707,7 @@
 }
 
 .contact-info p {
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   margin-bottom: 12px;
   font-size: 16px;
@@ -816,7 +815,7 @@
 }
 
 .resource-card p {
-  font-family: 'Aleo'; /* Apply Aleo font */
+  font-family: 'Aleo', sans-serif; /* Apply Aleo font */
   font-weight: 400; /* Regular */
   font-size: 14px;
   color: #555;
